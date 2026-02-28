@@ -90,6 +90,7 @@ Created starter files so `.planning` is never empty:
 - `skills.md`
 - `skills.sh`
 - `scripts/bootstrap-agent-foundation.ps1`
+- `scripts/install-antigravity.ps1`
 - `.bootstrap.sh`
 
 ### Planning state
@@ -170,6 +171,26 @@ Test-Path ./.agents/skills
 ```
 
 (`memclaude` may remain unresolved until a valid package source is provided.)
+
+### Step C.1 — Refresh Antigravity pack only (without full bootstrap)
+
+Windows:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File ./scripts/install-antigravity.ps1
+```
+
+Custom path:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File ./scripts/install-antigravity.ps1 -TargetPath .agents/skills
+```
+
+Preview mode (no install):
+
+```powershell
+powershell -ExecutionPolicy Bypass -File ./scripts/install-antigravity.ps1 -Preview
+```
 
 ### Step D — Configure Nexus for THIS repo (required)
 
