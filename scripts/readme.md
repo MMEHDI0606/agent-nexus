@@ -1,8 +1,8 @@
-# Agent Nexus Foundation — Detailed Process & Operations Guide
+# AI Agent Foundation Template — Detailed Process & Operations Guide
 
 ## Purpose
 
-This repository (`agent-nexus`) is a reusable **agent foundation template**.
+This repository (`ai-agent-foundation-template`) is a reusable **AI agent foundation template**.
 
 It solves four persistent problems:
 
@@ -144,7 +144,7 @@ Then they are updated by your day-to-day work and workflows (`ccpm` updates, man
 From inside target repo:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File "$HOME/agent-nexus/scripts/sync-from-nexus.ps1" -TargetPath (Get-Location).Path
+powershell -ExecutionPolicy Bypass -File "$HOME/ai-agent-foundation-template/scripts/sync-from-nexus.ps1" -TargetPath (Get-Location).Path
 ```
 
 ### Step B — Run bootstrap in target repo
@@ -235,7 +235,7 @@ In `.github/copilot-instructions.md`, add any repo-only rules (test command, lin
 Use this prompt directly in Copilot Chat from the target repo root:
 
 ```text
-You are configuring this repository to use Agent Nexus.
+You are configuring this repository to use AI Agent Foundation Template.
 
 Context:
 - Nexus templates are already synced into this repo.
@@ -352,7 +352,7 @@ Behavior:
 
 ---
 
-## Full Command Cookbook (Build Agent Nexus Anywhere)
+## Full Command Cookbook (Build AI Agent Foundation Template Anywhere)
 
 Use one of the two paths below.
 
@@ -365,7 +365,7 @@ Use one of the two paths below.
 Set-Location "C:\path\to\your\target-repo"
 
 # 2) Sync complete Nexus foundation into this repo
-powershell -ExecutionPolicy Bypass -File "$HOME/agent-nexus/scripts/sync-from-nexus.ps1" -TargetPath (Get-Location).Path
+powershell -ExecutionPolicy Bypass -File "$HOME/ai-agent-foundation-template/scripts/sync-from-nexus.ps1" -TargetPath (Get-Location).Path
 
 # 3) Run bootstrap installer/probes in this repo
 powershell -ExecutionPolicy Bypass -File ./scripts/bootstrap-agent-foundation.ps1
@@ -387,7 +387,7 @@ Get-Content ./.planning/current.md
 cd /path/to/your/target-repo
 
 # 2) (If template exists in Windows home) copy from mounted location
-powershell.exe -ExecutionPolicy Bypass -File "$HOME/agent-nexus/scripts/sync-from-nexus.ps1" -TargetPath "$(pwd)"
+powershell.exe -ExecutionPolicy Bypass -File "$HOME/ai-agent-foundation-template/scripts/sync-from-nexus.ps1" -TargetPath "$(pwd)"
 
 # 3) Run Linux bootstrap
 bash ./.bootstrap.sh
@@ -403,15 +403,15 @@ cat ./.planning/current.md
 
 ---
 
-### Path 2 — Build Agent Nexus from zero (no existing template)
+### Path 2 — Build AI Agent Foundation Template from zero (no existing template)
 
 #### Windows PowerShell (create foundation skeleton)
 
 ```powershell
 # 1) Create a fresh repository folder
 Set-Location $HOME
-New-Item -ItemType Directory -Force -Path ./agent-nexus | Out-Null
-Set-Location ./agent-nexus
+New-Item -ItemType Directory -Force -Path ./ai-agent-foundation-template | Out-Null
+Set-Location ./ai-agent-foundation-template
 
 # 2) Create core directory structure
 New-Item -ItemType Directory -Force -Path .github,.claude,.planning,scripts | Out-Null
@@ -479,7 +479,7 @@ $test = Join-Path $HOME 'nexus-smoketest-repo'
 if (Test-Path $test) { Remove-Item -Recurse -Force $test }
 New-Item -ItemType Directory -Path $test | Out-Null
 
-powershell -ExecutionPolicy Bypass -File "$HOME/agent-nexus/scripts/sync-from-nexus.ps1" -TargetPath $test
+powershell -ExecutionPolicy Bypass -File "$HOME/ai-agent-foundation-template/scripts/sync-from-nexus.ps1" -TargetPath $test
 Set-Location $test
 powershell -ExecutionPolicy Bypass -File ./scripts/bootstrap-agent-foundation.ps1
 Get-ChildItem -Recurse -File | Select-Object FullName

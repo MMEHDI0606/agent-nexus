@@ -3,7 +3,7 @@
 This folder is the local source of truth for active work.
 
 ## Where these files come from
-- Bootstrapped from this template repository (`agent-nexus`).
+- Bootstrapped from this template repository (`ai-agent-foundation-template`).
 - Updated continuously by you and by task workflows (for example `ccpm` commands).
 
 ## Minimum file set

@@ -1,6 +1,6 @@
 [CmdletBinding()]
 param(
-	[string]$NexusPath = "$HOME/agent-nexus",
+	[string]$NexusPath = "$HOME/ai-agent-foundation-template",
 	[string]$TargetPath = (Get-Location).Path
 )
 
