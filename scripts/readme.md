@@ -13,6 +13,14 @@ It solves four persistent problems:
 
 The result is a portable stack you can stamp into any repository in one command.
 
+## Quick Start (One Command)
+
+Run this from the target repository root to stamp the full portable stack:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File "$HOME/agent-nexus/scripts/sync-from-nexus.ps1" -TargetPath (Get-Location).Path
+```
+
 ---
 
 ## What Was Achieved
@@ -144,7 +152,7 @@ Then they are updated by your day-to-day work and workflows (`ccpm` updates, man
 From inside target repo:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File "$HOME/ai-agent-foundation-template/scripts/sync-from-nexus.ps1" -TargetPath (Get-Location).Path
+powershell -ExecutionPolicy Bypass -File "$HOME/agent-nexus/scripts/sync-from-nexus.ps1" -TargetPath (Get-Location).Path
 ```
 
 ### Step B — Run bootstrap in target repo
@@ -466,7 +474,7 @@ Use one of the two paths below.
 Set-Location "C:\path\to\your\target-repo"
 
 # 2) Sync complete Nexus foundation into this repo
-powershell -ExecutionPolicy Bypass -File "$HOME/ai-agent-foundation-template/scripts/sync-from-nexus.ps1" -TargetPath (Get-Location).Path
+powershell -ExecutionPolicy Bypass -File "$HOME/agent-nexus/scripts/sync-from-nexus.ps1" -TargetPath (Get-Location).Path
 
 # 3) Run bootstrap installer/probes in this repo
 powershell -ExecutionPolicy Bypass -File ./scripts/bootstrap-agent-foundation.ps1
@@ -488,7 +496,7 @@ Get-Content ./.planning/current.md
 cd /path/to/your/target-repo
 
 # 2) (If template exists in Windows home) copy from mounted location
-powershell.exe -ExecutionPolicy Bypass -File "$HOME/ai-agent-foundation-template/scripts/sync-from-nexus.ps1" -TargetPath "$(pwd)"
+powershell.exe -ExecutionPolicy Bypass -File "$HOME/agent-nexus/scripts/sync-from-nexus.ps1" -TargetPath "$(pwd)"
 
 # 3) Run Linux bootstrap
 bash ./.bootstrap.sh
@@ -580,7 +588,7 @@ $test = Join-Path $HOME 'nexus-smoketest-repo'
 if (Test-Path $test) { Remove-Item -Recurse -Force $test }
 New-Item -ItemType Directory -Path $test | Out-Null
 
-powershell -ExecutionPolicy Bypass -File "$HOME/ai-agent-foundation-template/scripts/sync-from-nexus.ps1" -TargetPath $test
+powershell -ExecutionPolicy Bypass -File "$HOME/agent-nexus/scripts/sync-from-nexus.ps1" -TargetPath $test
 Set-Location $test
 powershell -ExecutionPolicy Bypass -File ./scripts/bootstrap-agent-foundation.ps1
 Get-ChildItem -Recurse -File | Select-Object FullName
