@@ -229,6 +229,10 @@ Comprehensive registry of:
    - https://github.com/sickn33/antigravity-awesome-skills
    - Community curated skills pack
 
+7. **Impeccable**
+  - https://github.com/pbakaus/impeccable
+  - Frontend quality vocabulary, commands, and anti-pattern guidance
+
 ### Tools Attribution
 
 - **browser-use** — https://github.com/browser-use/browser-use
