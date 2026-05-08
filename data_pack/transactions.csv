@@ -1,0 +1,742 @@
+txn_id,customer_id,datetime,amount_pkr,txn_type,channel,city,counterparty,note
+T10001,C021,2025-10-01 01:49,55703.88,transfer_in,internet_banking,Gujranwala,AGPR,Monthly pension
+T10002,C013,2025-10-01 08:18,119412.03,cash_withdrawal,ATM,Karachi,,Business payment
+T10003,C012,2025-10-01 09:26,99340.92,transfer_in,internet_banking,Lahore,VENDOR_Y,Business receipt
+T10004,C021,2025-10-01 09:39,15000.0,cash_withdrawal,ATM,Gujranwala,,
+T10005,C002,2025-10-01 13:10,317143.23,transfer_in,internet_banking,Lahore,EMPLOYER,Monthly salary
+T10006,C016,2025-10-01 14:44,25000.0,transfer_in,internet_banking,Lahore,FAMILY,Allowance from family
+T10007,C004,2025-10-01 15:04,447456.19,transfer_in,internet_banking,Karachi,EMPLOYER,Monthly salary
+T10008,C005,2025-10-01 15:37,388636.57,transfer_in,internet_banking,Lahore,EMPLOYER,Monthly salary
+T10009,C007,2025-10-01 17:33,54402.02,transfer_out,mobile_app,Rawalpindi,,transfer_out
+T10010,C017,2025-10-01 18:11,25000.0,transfer_in,internet_banking,Islamabad,FAMILY,Allowance from family
+T10011,C006,2025-10-01 18:40,185626.97,transfer_in,internet_banking,Karachi,EMPLOYER,Monthly salary
+T10012,C003,2025-10-01 18:46,45450.67,transfer_out,internet_banking,Islamabad,,transfer_out
+T10013,C008,2025-10-02 07:13,218521.11,transfer_in,internet_banking,Faisalabad,EMPLOYER,Monthly salary
+T10014,C001,2025-10-02 10:48,30000.0,cash_withdrawal,ATM,Karachi,,cash_withdrawal
+T10015,C007,2025-10-02 15:52,232702.89,transfer_in,internet_banking,Rawalpindi,EMPLOYER,Monthly salary
+T10016,C009,2025-10-02 16:39,167639.94,transfer_in,internet_banking,Peshawar,EMPLOYER,Monthly salary
+T10017,C008,2025-10-02 17:57,30000.0,cash_withdrawal,ATM,Faisalabad,,cash_withdrawal
+T10018,C010,2025-10-02 21:58,276897.7,transfer_in,internet_banking,Karachi,EMPLOYER,Monthly salary
+T10019,C020,2025-10-03 00:13,66216.02,transfer_in,internet_banking,Lahore,AGPR,Monthly pension
+T10020,C015,2025-10-03 09:36,103021.26,transfer_in,internet_banking,Multan,CUST_A,Business receipt
+T10021,C001,2025-10-03 11:07,284634.0,transfer_in,internet_banking,Karachi,EMPLOYER,Monthly salary
+T10022,C024,2025-10-03 11:59,100000.0,transfer_in,internet_banking,Karachi,SPOUSE,Household expenses
+T10023,C003,2025-10-03 12:56,165476.62,transfer_in,internet_banking,Islamabad,EMPLOYER,Monthly salary
+T10024,C005,2025-10-03 20:29,21545.72,bill_payment,mobile_app,Lahore,,bill_payment
+T10025,C018,2025-10-04 10:32,30000.0,transfer_in,internet_banking,Karachi,FAMILY,Allowance from family
+T10026,C014,2025-10-04 12:46,201481.64,transfer_in,internet_banking,Islamabad,CUST_B,Business receipt
+T10027,C015,2025-10-04 13:16,35824.8,cash_withdrawal,ATM,Multan,,Business payment
+T10028,C011,2025-10-04 15:45,35209.42,cash_withdrawal,ATM,Faisalabad,,Business payment
+T10029,C011,2025-10-05 14:05,99130.21,cheque_withdrawal,branch,Faisalabad,,Business payment
+T10030,C022,2025-10-05 16:22,2213.14,card_purchase,POS,Karachi,,
+T10031,C020,2025-10-05 16:29,15000.0,cash_withdrawal,ATM,Lahore,,
+T10032,C029,2025-10-05 18:16,144584.14,transfer_out,internet_banking,Karachi,SUPPLIER,Business payment
+T10033,C019,2025-10-05 20:49,83926.86,transfer_in,internet_banking,Rawalpindi,AGPR,Monthly pension
+T10034,C028,2025-10-06 12:19,90000.0,transfer_in,internet_banking,Islamabad,SPOUSE,Household expenses
+T10035,C020,2025-10-06 18:20,20000.0,cash_withdrawal,ATM,Lahore,,
+T10036,C010,2025-10-06 21:39,6684.73,card_purchase,POS,Karachi,,card_purchase
+T10037,C010,2025-10-07 08:59,5630.6,card_purchase,POS,Karachi,,card_purchase
+T10038,C015,2025-10-07 13:39,97496.64,cash_withdrawal,ATM,Multan,,Business payment
+T10039,C026,2025-10-07 16:47,3027.9,card_purchase,POS,Karachi,,
+T10040,C001,2025-10-08 10:05,3063.6,card_purchase,POS,Karachi,,card_purchase
+T10041,C014,2025-10-08 13:02,78090.05,cheque_withdrawal,branch,Islamabad,,Business payment
+T10042,C007,2025-10-08 13:07,12337.56,transfer_out,internet_banking,Rawalpindi,,transfer_out
+T10043,C010,2025-10-08 21:15,3061.99,card_purchase,POS,Karachi,,card_purchase
+T10044,C015,2025-10-09 13:37,175766.73,transfer_in,internet_banking,Multan,VENDOR_X,Business receipt
+T10045,C027,2025-10-10 09:04,369307.1,cash_deposit,branch,Bahawalpur,,Crop sale proceeds
+T10046,C006,2025-10-10 09:54,7380.71,bill_payment,mobile_app,Karachi,,bill_payment
+T10047,C007,2025-10-10 10:06,11695.51,bill_payment,mobile_app,Rawalpindi,,bill_payment
+T10048,C006,2025-10-10 13:53,11728.22,card_purchase,POS,Karachi,,card_purchase
+T10049,C024,2025-10-11 06:46,4882.39,card_purchase,POS,Karachi,,
+T10050,C006,2025-10-11 10:57,4289.34,card_purchase,POS,Karachi,,card_purchase
+T10051,C028,2025-10-11 13:15,20000.0,cash_withdrawal,ATM,Islamabad,,
+T10052,C023,2025-10-11 17:20,120466.96,cheque_withdrawal,internet_banking,Rawalpindi,,
+T10053,C006,2025-10-11 20:19,14608.5,card_purchase,POS,Karachi,,card_purchase
+T10054,C001,2025-10-12 10:42,1897.06,card_purchase,POS,Karachi,,card_purchase
+T10055,C023,2025-10-12 11:22,222817.85,transfer_in,internet_banking,Rawalpindi,PROPERTY_CLIENT,Commission
+T10056,C023,2025-10-13 07:55,115065.11,cheque_withdrawal,internet_banking,Rawalpindi,,
+T10057,C002,2025-10-13 10:55,9954.57,card_purchase,POS,Lahore,,card_purchase
+T10058,C010,2025-10-13 12:16,6837.78,card_purchase,POS,Karachi,,card_purchase
+T10059,C008,2025-10-13 13:35,4393.7,card_purchase,POS,Faisalabad,,card_purchase
+T10060,C016,2025-10-13 22:50,2309.59,bill_payment,mobile_app,Lahore,,
+T10061,C005,2025-10-14 08:05,1621.84,bill_payment,mobile_app,Lahore,,bill_payment
+T10062,C018,2025-10-14 10:18,3000.0,cash_withdrawal,ATM,Karachi,,
+T10063,C010,2025-10-14 10:22,726.69,card_purchase,POS,Karachi,,card_purchase
+T10064,C029,2025-10-14 14:25,131029.0,cash_withdrawal,ATM,Karachi,,Business payment
+T10065,C004,2025-10-15 10:37,20000.0,cash_withdrawal,ATM,Karachi,,cash_withdrawal
+T10066,C025,2025-10-15 11:20,2500.0,bill_payment,mobile_app,Lahore,,
+T10067,C014,2025-10-15 12:18,118063.48,cheque_withdrawal,branch,Islamabad,,Business payment
+T10068,C027,2025-10-15 13:49,243856.46,cash_deposit,branch,Bahawalpur,,Crop sale proceeds
+T10069,C024,2025-10-15 14:04,3840.19,card_purchase,POS,Karachi,,
+T10070,C027,2025-10-15 23:14,316741.97,cash_deposit,branch,Bahawalpur,,Crop sale proceeds
+T10071,C026,2025-10-16 10:32,414019.04,transfer_in,internet_banking,Karachi,WISE_REMITTANCE,Inward remittance - export services
+T10072,C004,2025-10-16 10:47,13943.04,card_purchase,POS,Karachi,,card_purchase
+T10073,C004,2025-10-16 15:25,10000.0,cash_withdrawal,ATM,Karachi,,cash_withdrawal
+T10074,C017,2025-10-16 17:30,1158.53,bill_payment,mobile_app,Islamabad,,
+T10075,C028,2025-10-17 08:21,1321.01,card_purchase,POS,Islamabad,,
+T10076,C021,2025-10-17 09:07,20000.0,cash_withdrawal,ATM,Gujranwala,,
+T10077,C009,2025-10-17 09:26,10337.89,card_purchase,POS,Peshawar,,card_purchase
+T10078,C017,2025-10-17 13:08,2725.06,bill_payment,mobile_app,Islamabad,,
+T10079,C026,2025-10-17 19:19,19597.26,card_purchase,POS,Karachi,,
+T10080,C019,2025-10-18 10:09,5000.0,cash_withdrawal,ATM,Rawalpindi,,
+T10081,C013,2025-10-18 10:17,63092.0,cheque_withdrawal,branch,Karachi,,Business payment
+T10082,C018,2025-10-18 13:05,2482.15,card_purchase,POS,Karachi,,
+T10083,C022,2025-10-18 13:22,456.39,card_purchase,POS,Karachi,,
+T10084,C010,2025-10-18 14:49,10830.1,transfer_out,mobile_app,Karachi,,transfer_out
+T10085,C005,2025-10-18 16:43,42697.78,transfer_out,internet_banking,Lahore,,transfer_out
+T10086,C027,2025-10-18 18:30,9515.11,bill_payment,mobile_app,Bahawalpur,,
+T10087,C016,2025-10-18 20:53,2000.0,cash_withdrawal,ATM,Lahore,,
+T10088,C012,2025-10-19 12:43,24681.68,transfer_out,mobile_app,Lahore,SUPPLIER,Business payment
+T10089,C008,2025-10-19 14:29,9779.37,card_purchase,POS,Faisalabad,,card_purchase
+T10090,C020,2025-10-19 15:25,20000.0,cash_withdrawal,ATM,Lahore,,
+T10091,C014,2025-10-19 15:28,93014.81,cheque_withdrawal,branch,Islamabad,,Business payment
+T10092,C003,2025-10-19 15:45,10142.9,bill_payment,mobile_app,Islamabad,,bill_payment
+T10093,C017,2025-10-19 21:57,1518.98,card_purchase,POS,Islamabad,,
+T10094,C014,2025-10-20 09:30,396609.91,transfer_in,internet_banking,Islamabad,VENDOR_X,Business receipt
+T10095,C004,2025-10-20 11:28,15000.0,cash_withdrawal,ATM,Karachi,,cash_withdrawal
+T10096,C015,2025-10-20 21:09,74258.46,transfer_out,mobile_app,Multan,SUPPLIER,Business payment
+T10097,C027,2025-10-21 10:40,184584.61,cash_deposit,branch,Bahawalpur,,Crop sale proceeds
+T10098,C005,2025-10-21 15:26,15000.0,cash_withdrawal,ATM,Lahore,,cash_withdrawal
+T10099,C028,2025-10-22 11:32,10000.0,cash_withdrawal,ATM,Islamabad,,
+T10100,C011,2025-10-22 16:15,367630.17,transfer_in,internet_banking,Faisalabad,VENDOR_Y,Business receipt
+T10101,C001,2025-10-23 17:37,2913.79,card_purchase,POS,Karachi,,card_purchase
+T10102,C011,2025-10-23 18:17,417332.13,transfer_in,internet_banking,Faisalabad,VENDOR_Y,Business receipt
+T10103,C018,2025-10-24 13:27,388.09,card_purchase,POS,Karachi,,
+T10104,C016,2025-10-24 14:42,2218.28,card_purchase,POS,Lahore,,
+T10105,C013,2025-10-24 15:14,22301.54,transfer_out,mobile_app,Karachi,SUPPLIER,Business payment
+T10106,C004,2025-10-24 15:59,15000.0,cash_withdrawal,ATM,Karachi,,cash_withdrawal
+T10107,C029,2025-10-26 09:53,32456.01,cash_withdrawal,ATM,Karachi,,Business payment
+T10108,C026,2025-10-26 10:10,318598.11,transfer_in,internet_banking,Karachi,UPWORK_ESCROW,Inward remittance - export services
+T10109,C014,2025-10-26 10:33,276568.63,transfer_in,internet_banking,Islamabad,VENDOR_Y,Business receipt
+T10110,C014,2025-10-26 12:48,73980.03,cash_withdrawal,ATM,Islamabad,,Business payment
+T10111,C029,2025-10-26 13:32,165958.88,transfer_in,internet_banking,Karachi,CUST_A,Business receipt
+T10112,C011,2025-10-26 13:53,74416.68,transfer_out,mobile_app,Faisalabad,SUPPLIER,Business payment
+T10113,C014,2025-10-26 13:55,106316.33,transfer_in,internet_banking,Islamabad,VENDOR_Y,Business receipt
+T10114,C023,2025-10-27 12:49,197136.05,transfer_in,internet_banking,Rawalpindi,PROPERTY_CLIENT,Commission
+T10115,C001,2025-10-27 14:05,1363.39,card_purchase,POS,Karachi,,card_purchase
+T10116,C011,2025-10-27 21:55,94270.96,transfer_out,mobile_app,Faisalabad,SUPPLIER,Business payment
+T10117,C020,2025-10-28 08:15,8534.13,bill_payment,mobile_app,Lahore,,
+T10118,C015,2025-10-28 11:15,74023.62,transfer_in,internet_banking,Multan,VENDOR_Y,Business receipt
+T10119,C008,2025-10-28 11:49,6994.21,card_purchase,POS,Faisalabad,,card_purchase
+T10120,C015,2025-10-28 16:43,58914.18,transfer_out,mobile_app,Multan,SUPPLIER,Business payment
+T10121,C003,2025-10-28 18:55,8973.08,bill_payment,mobile_app,Islamabad,,bill_payment
+T10122,C004,2025-10-28 21:15,2215.07,card_purchase,POS,Karachi,,card_purchase
+T10123,C003,2025-10-29 13:59,1832.36,card_purchase,POS,Islamabad,,card_purchase
+T10124,C018,2025-10-30 12:48,2812.73,bill_payment,mobile_app,Karachi,,
+T10125,C015,2025-10-30 13:08,77352.31,transfer_out,internet_banking,Multan,SUPPLIER,Business payment
+T10126,C013,2025-10-31 09:41,10379.53,transfer_out,mobile_app,Karachi,SUPPLIER,Business payment
+T10127,C010,2025-10-31 12:50,77743.58,transfer_out,mobile_app,Karachi,,transfer_out
+T10128,C003,2025-10-31 13:15,2344.34,card_purchase,POS,Islamabad,,card_purchase
+T10129,C005,2025-10-31 14:56,13074.17,bill_payment,mobile_app,Lahore,,bill_payment
+T10130,C026,2025-11-01 08:08,73424.22,transfer_out,internet_banking,Karachi,,
+T10131,C008,2025-11-01 09:29,5894.16,card_purchase,POS,Faisalabad,,card_purchase
+T10132,C010,2025-11-01 11:39,266850.66,transfer_in,internet_banking,Karachi,EMPLOYER,Monthly salary
+T10133,C004,2025-11-01 13:55,430344.13,transfer_in,internet_banking,Karachi,EMPLOYER,Monthly salary
+T10134,C013,2025-11-01 14:01,61692.27,cash_withdrawal,ATM,Karachi,,Business payment
+T10135,C017,2025-11-01 14:08,30000.0,transfer_in,internet_banking,Islamabad,FAMILY,Allowance from family
+T10136,C016,2025-11-01 14:54,3162.38,bill_payment,mobile_app,Lahore,,
+T10137,C018,2025-11-01 15:50,15000.0,transfer_in,internet_banking,Karachi,FAMILY,Allowance from family
+T10138,C001,2025-11-01 16:47,277733.71,transfer_in,internet_banking,Karachi,EMPLOYER,Monthly salary
+T10139,C023,2025-11-01 18:51,131456.81,cheque_withdrawal,internet_banking,Rawalpindi,,
+T10140,C007,2025-11-01 20:14,240396.67,transfer_in,internet_banking,Rawalpindi,EMPLOYER,Monthly salary
+T10141,C020,2025-11-02 01:48,63968.04,transfer_in,internet_banking,Lahore,AGPR,Monthly pension
+T10142,C016,2025-11-02 10:28,30000.0,transfer_in,internet_banking,Lahore,FAMILY,Allowance from family
+T10143,C010,2025-11-02 11:30,20000.0,cash_withdrawal,ATM,Karachi,,cash_withdrawal
+T10144,C008,2025-11-02 11:50,219098.13,transfer_in,internet_banking,Faisalabad,EMPLOYER,Monthly salary
+T10145,C006,2025-11-02 14:10,191235.17,transfer_in,internet_banking,Karachi,EMPLOYER,Monthly salary
+T10146,C026,2025-11-02 15:20,50000.0,cash_withdrawal,ATM,Karachi,,
+T10147,C005,2025-11-02 15:32,381065.92,transfer_in,internet_banking,Lahore,EMPLOYER,Monthly salary
+T10148,C026,2025-11-02 16:56,20000.0,cash_withdrawal,ATM,Karachi,,
+T10149,C029,2025-11-02 17:42,155932.39,transfer_in,internet_banking,Karachi,CUST_A,Business receipt
+T10150,C002,2025-11-02 20:24,317597.57,transfer_in,internet_banking,Lahore,EMPLOYER,Monthly salary
+T10151,C005,2025-11-03 06:42,23315.49,bill_payment,mobile_app,Lahore,,bill_payment
+T10152,C016,2025-11-03 09:00,3129.33,bill_payment,mobile_app,Lahore,,
+T10153,C021,2025-11-03 10:15,55899.14,transfer_in,internet_banking,Gujranwala,AGPR,Monthly pension
+T10154,C004,2025-11-03 10:46,53387.96,transfer_out,internet_banking,Karachi,,transfer_out
+T10155,C003,2025-11-03 10:48,157639.12,transfer_in,internet_banking,Islamabad,EMPLOYER,Monthly salary
+T10156,C029,2025-11-03 14:38,383458.7,transfer_in,internet_banking,Karachi,CUST_A,Business receipt
+T10157,C024,2025-11-03 15:51,70000.0,transfer_in,internet_banking,Karachi,SPOUSE,Household expenses
+T10158,C015,2025-11-03 18:05,202005.85,transfer_in,internet_banking,Multan,VENDOR_X,Business receipt
+T10159,C009,2025-11-03 19:57,178184.54,transfer_in,internet_banking,Peshawar,EMPLOYER,Monthly salary
+T10160,C023,2025-11-04 17:04,88513.13,cheque_withdrawal,branch,Rawalpindi,,
+T10161,C002,2025-11-05 09:15,40000.0,cash_withdrawal,ATM,Lahore,,cash_withdrawal
+T10162,C019,2025-11-05 09:39,85921.35,transfer_in,internet_banking,Rawalpindi,AGPR,Monthly pension
+T10163,C009,2025-11-05 10:09,5811.48,card_purchase,POS,Peshawar,,card_purchase
+T10164,C028,2025-11-05 22:03,90000.0,transfer_in,internet_banking,Islamabad,SPOUSE,Household expenses
+T10165,C012,2025-11-06 10:04,58009.76,transfer_out,internet_banking,Lahore,SUPPLIER,Business payment
+T10166,C024,2025-11-06 10:45,1500000.0,transfer_in,internet_banking,Karachi,BIZ_ACC_776,Transfer received
+T10167,C021,2025-11-06 17:18,20000.0,cash_withdrawal,ATM,Gujranwala,,
+T10168,C029,2025-11-07 11:08,43416.6,transfer_out,mobile_app,Karachi,SUPPLIER,Business payment
+T10169,C027,2025-11-07 13:16,20000.0,cash_withdrawal,ATM,Bahawalpur,,
+T10170,C024,2025-11-07 14:20,1486882.51,transfer_out,internet_banking,Karachi,OTHER_ACC_402,Transfer sent
+T10171,C016,2025-11-07 16:08,3000.0,cash_withdrawal,ATM,Lahore,,
+T10172,C021,2025-11-08 11:30,1800000.0,cash_deposit,branch,Gujranwala,,Cash deposit - source not specified
+T10173,C013,2025-11-08 16:28,125518.57,cash_withdrawal,ATM,Karachi,,Business payment
+T10174,C011,2025-11-08 18:09,28024.78,cash_withdrawal,ATM,Faisalabad,,Business payment
+T10175,C019,2025-11-09 09:10,5000.0,cash_withdrawal,ATM,Rawalpindi,,
+T10176,C018,2025-11-09 10:42,2399.29,bill_payment,mobile_app,Karachi,,
+T10177,C003,2025-11-09 12:23,20000.0,cash_withdrawal,ATM,Islamabad,,cash_withdrawal
+T10178,C029,2025-11-09 13:04,279878.64,transfer_in,internet_banking,Karachi,VENDOR_X,Business receipt
+T10179,C001,2025-11-09 14:13,8483.78,transfer_out,internet_banking,Karachi,,transfer_out
+T10180,C004,2025-11-09 22:12,4238.44,card_purchase,POS,Karachi,,card_purchase
+T10181,C026,2025-11-10 10:45,20000.0,cash_withdrawal,ATM,Karachi,,
+T10182,C012,2025-11-10 16:15,208035.55,transfer_in,internet_banking,Lahore,CUST_B,Business receipt
+T10183,C029,2025-11-11 01:52,107400.0,transfer_out,internet_banking,Karachi,SUPPLIER,Business payment
+T10184,C029,2025-11-11 12:11,288552.84,transfer_in,internet_banking,Karachi,CUST_B,Business receipt
+T10185,C010,2025-11-11 12:19,9919.4,card_purchase,POS,Karachi,,card_purchase
+T10186,C027,2025-11-11 16:57,166464.78,cash_deposit,branch,Bahawalpur,,Crop sale proceeds
+T10187,C013,2025-11-11 18:21,409031.2,transfer_in,internet_banking,Karachi,VENDOR_Y,Business receipt
+T10188,C015,2025-11-12 10:16,111364.01,transfer_in,internet_banking,Multan,VENDOR_Y,Business receipt
+T10189,C004,2025-11-12 14:24,8186.2,card_purchase,POS,Karachi,,card_purchase
+T10190,C014,2025-11-13 14:11,125751.84,transfer_out,mobile_app,Islamabad,SUPPLIER,Business payment
+T10191,C008,2025-11-13 16:42,1570.82,card_purchase,POS,Faisalabad,,card_purchase
+T10192,C015,2025-11-14 10:12,199675.09,transfer_in,internet_banking,Multan,CUST_B,Business receipt
+T10193,C023,2025-11-14 10:30,985000.0,cash_deposit,branch,Rawalpindi,,Cash deposit
+T10194,C023,2025-11-14 14:50,970000.0,cash_deposit,branch,Islamabad,,Cash deposit
+T10195,C016,2025-11-14 17:07,1000.0,cash_withdrawal,ATM,Lahore,,
+T10196,C026,2025-11-14 18:57,10000.0,cash_withdrawal,ATM,Karachi,,
+T10197,C006,2025-11-15 12:56,3172.91,card_purchase,POS,Karachi,,card_purchase
+T10198,C007,2025-11-15 13:37,40510.38,transfer_out,internet_banking,Rawalpindi,,transfer_out
+T10199,C011,2025-11-15 15:46,417366.81,transfer_in,internet_banking,Faisalabad,VENDOR_X,Business receipt
+T10200,C008,2025-11-15 15:51,41189.07,transfer_out,internet_banking,Faisalabad,,transfer_out
+T10201,C006,2025-11-15 16:47,23814.54,transfer_out,internet_banking,Karachi,,transfer_out
+T10202,C019,2025-11-16 13:55,20000.0,cash_withdrawal,ATM,Rawalpindi,,
+T10203,C004,2025-11-16 18:17,5934.62,bill_payment,mobile_app,Karachi,,bill_payment
+T10204,C013,2025-11-18 11:44,92362.93,transfer_out,mobile_app,Karachi,SUPPLIER,Business payment
+T10205,C013,2025-11-18 19:58,148730.13,cash_withdrawal,ATM,Karachi,,Business payment
+T10206,C011,2025-11-19 11:13,39278.31,cash_withdrawal,ATM,Faisalabad,,Business payment
+T10207,C029,2025-11-19 14:14,151117.52,transfer_in,internet_banking,Karachi,CUST_B,Business receipt
+T10208,C010,2025-11-20 09:04,11164.5,bill_payment,mobile_app,Karachi,,bill_payment
+T10209,C008,2025-11-20 10:09,6936.27,card_purchase,POS,Faisalabad,,card_purchase
+T10210,C001,2025-11-20 11:45,15878.54,bill_payment,mobile_app,Karachi,,bill_payment
+T10211,C026,2025-11-21 09:50,5612.66,card_purchase,POS,Karachi,,
+T10212,C027,2025-11-21 12:32,388602.55,cash_deposit,branch,Bahawalpur,,Crop sale proceeds
+T10213,C006,2025-11-21 14:52,58594.69,transfer_out,internet_banking,Karachi,,transfer_out
+T10214,C013,2025-11-22 09:17,373594.71,transfer_in,internet_banking,Karachi,CUST_B,Business receipt
+T10215,C025,2025-11-22 14:10,3200.0,bill_payment,mobile_app,Lahore,,
+T10216,C009,2025-11-22 18:53,20191.74,card_purchase,POS,Peshawar,,card_purchase
+T10217,C001,2025-11-23 11:42,6579.93,card_purchase,POS,Karachi,,card_purchase
+T10218,C012,2025-11-23 21:40,209489.25,transfer_in,internet_banking,Lahore,CUST_B,Business receipt
+T10219,C003,2025-11-24 10:59,24450.45,bill_payment,mobile_app,Islamabad,,bill_payment
+T10220,C005,2025-11-24 11:32,3612.2,card_purchase,POS,Lahore,,card_purchase
+T10221,C026,2025-11-24 15:43,358222.11,transfer_in,internet_banking,Karachi,DEEL_PAYROLL,Inward remittance - export services
+T10222,C029,2025-11-24 17:21,348660.15,transfer_in,internet_banking,Karachi,VENDOR_Y,Business receipt
+T10223,C002,2025-11-24 18:41,21475.91,bill_payment,mobile_app,Lahore,,bill_payment
+T10224,C002,2025-11-24 19:58,53830.78,transfer_out,internet_banking,Lahore,,transfer_out
+T10225,C011,2025-11-24 20:22,134852.47,transfer_in,internet_banking,Faisalabad,VENDOR_X,Business receipt
+T10226,C010,2025-11-24 20:29,5934.55,card_purchase,POS,Karachi,,card_purchase
+T10227,C011,2025-11-26 14:25,22740.29,cash_withdrawal,ATM,Faisalabad,,Business payment
+T10228,C015,2025-11-26 16:40,107778.21,transfer_in,internet_banking,Multan,CUST_B,Business receipt
+T10229,C009,2025-11-26 20:31,4894.63,card_purchase,POS,Peshawar,,card_purchase
+T10230,C018,2025-11-27 13:54,1805.22,card_purchase,POS,Karachi,,
+T10231,C029,2025-11-27 17:01,44339.97,cheque_withdrawal,branch,Karachi,,Business payment
+T10232,C014,2025-11-28 09:47,85107.39,transfer_out,mobile_app,Islamabad,SUPPLIER,Business payment
+T10233,C002,2025-11-28 10:52,5028.87,card_purchase,POS,Lahore,,card_purchase
+T10234,C012,2025-11-28 13:43,56248.79,cash_withdrawal,ATM,Lahore,,Business payment
+T10235,C011,2025-11-28 14:23,66042.07,transfer_out,mobile_app,Faisalabad,SUPPLIER,Business payment
+T10236,C003,2025-11-28 15:37,2445.97,card_purchase,POS,Islamabad,,card_purchase
+T10237,C029,2025-11-29 10:34,76734.76,transfer_out,mobile_app,Karachi,SUPPLIER,Business payment
+T10238,C011,2025-11-29 16:07,19273.04,cash_withdrawal,ATM,Faisalabad,,Business payment
+T10239,C015,2025-11-30 09:56,56810.79,cash_withdrawal,ATM,Multan,,Business payment
+T10240,C008,2025-11-30 14:43,2825.04,card_purchase,POS,Faisalabad,,card_purchase
+T10241,C016,2025-11-30 15:37,2611.84,bill_payment,mobile_app,Lahore,,
+T10242,C006,2025-11-30 15:55,4462.77,card_purchase,POS,Karachi,,card_purchase
+T10243,C029,2025-11-30 16:24,82976.44,transfer_out,mobile_app,Karachi,SUPPLIER,Business payment
+T10244,C004,2025-11-30 19:10,6713.01,card_purchase,POS,Karachi,,card_purchase
+T10245,C022,2025-12-01 08:46,2601.52,card_purchase,POS,Karachi,,
+T10246,C021,2025-12-01 11:36,20000.0,cash_withdrawal,ATM,Gujranwala,,
+T10247,C007,2025-12-01 14:42,238276.91,transfer_in,internet_banking,Rawalpindi,EMPLOYER,Monthly salary
+T10248,C011,2025-12-02 08:48,211014.12,transfer_in,internet_banking,Faisalabad,VENDOR_Y,Business receipt
+T10249,C001,2025-12-02 09:15,269057.49,transfer_in,internet_banking,Karachi,EMPLOYER,Monthly salary
+T10250,C004,2025-12-02 10:50,17737.04,bill_payment,mobile_app,Karachi,,bill_payment
+T10251,C016,2025-12-02 10:54,25000.0,transfer_in,internet_banking,Lahore,FAMILY,Allowance from family
+T10252,C002,2025-12-02 10:59,310636.53,transfer_in,internet_banking,Lahore,EMPLOYER,Monthly salary
+T10253,C003,2025-12-02 11:49,158612.11,transfer_in,internet_banking,Islamabad,EMPLOYER,Monthly salary
+T10254,C008,2025-12-02 13:09,20000.0,cash_withdrawal,ATM,Faisalabad,,cash_withdrawal
+T10255,C008,2025-12-02 14:30,21877.24,bill_payment,mobile_app,Faisalabad,,bill_payment
+T10256,C005,2025-12-02 15:23,5341.34,card_purchase,POS,Lahore,,card_purchase
+T10257,C004,2025-12-02 17:04,437604.57,transfer_in,internet_banking,Karachi,EMPLOYER,Monthly salary
+T10258,C016,2025-12-02 17:08,2000.0,cash_withdrawal,ATM,Lahore,,
+T10259,C021,2025-12-03 00:07,55123.6,transfer_in,internet_banking,Gujranwala,AGPR,Monthly pension
+T10260,C005,2025-12-03 09:10,375659.94,transfer_in,internet_banking,Lahore,EMPLOYER,Monthly salary
+T10261,C012,2025-12-03 11:07,150792.09,transfer_in,internet_banking,Lahore,VENDOR_Y,Business receipt
+T10262,C020,2025-12-03 11:18,65799.32,transfer_in,internet_banking,Lahore,AGPR,Monthly pension
+T10263,C008,2025-12-03 12:38,219496.85,transfer_in,internet_banking,Faisalabad,EMPLOYER,Monthly salary
+T10264,C006,2025-12-03 15:28,189729.28,transfer_in,internet_banking,Karachi,EMPLOYER,Monthly salary
+T10265,C006,2025-12-03 17:17,2453.73,card_purchase,POS,Karachi,,card_purchase
+T10266,C009,2025-12-03 17:53,21204.3,bill_payment,mobile_app,Peshawar,,bill_payment
+T10267,C010,2025-12-03 19:01,284014.67,transfer_in,internet_banking,Karachi,EMPLOYER,Monthly salary
+T10268,C009,2025-12-03 23:27,166934.42,transfer_in,internet_banking,Peshawar,EMPLOYER,Monthly salary
+T10269,C029,2025-12-04 08:03,84564.35,cash_withdrawal,ATM,Karachi,,Business payment
+T10270,C013,2025-12-04 15:20,388263.62,transfer_in,internet_banking,Karachi,CUST_A,Business receipt
+T10271,C029,2025-12-04 20:46,347720.39,transfer_in,internet_banking,Karachi,CUST_B,Business receipt
+T10272,C028,2025-12-05 00:04,90000.0,transfer_in,internet_banking,Islamabad,SPOUSE,Household expenses
+T10273,C019,2025-12-05 08:01,86146.07,transfer_in,internet_banking,Rawalpindi,AGPR,Monthly pension
+T10274,C010,2025-12-05 09:49,26597.0,card_purchase,POS,Karachi,,card_purchase
+T10275,C017,2025-12-05 11:07,15000.0,transfer_in,internet_banking,Islamabad,FAMILY,Allowance from family
+T10276,C018,2025-12-05 12:46,20000.0,transfer_in,internet_banking,Karachi,FAMILY,Allowance from family
+T10277,C014,2025-12-05 18:42,29476.27,transfer_out,mobile_app,Islamabad,SUPPLIER,Business payment
+T10278,C007,2025-12-05 19:02,50000.0,cash_withdrawal,ATM,Rawalpindi,,cash_withdrawal
+T10279,C005,2025-12-06 11:13,30000.0,cash_withdrawal,ATM,Lahore,,cash_withdrawal
+T10280,C024,2025-12-06 16:27,70000.0,transfer_in,internet_banking,Karachi,SPOUSE,Household expenses
+T10281,C003,2025-12-07 09:33,79830.54,transfer_out,internet_banking,Islamabad,,transfer_out
+T10282,C005,2025-12-07 10:32,15870.57,bill_payment,mobile_app,Lahore,,bill_payment
+T10283,C026,2025-12-07 14:49,4846.26,card_purchase,POS,Karachi,,
+T10284,C005,2025-12-07 15:07,57686.31,transfer_out,mobile_app,Lahore,,transfer_out
+T10285,C001,2025-12-07 15:51,3779.99,card_purchase,POS,Karachi,,card_purchase
+T10286,C012,2025-12-07 19:42,127459.81,transfer_in,internet_banking,Lahore,CUST_A,Business receipt
+T10287,C025,2025-12-08 10:40,1800.0,card_purchase,POS,Lahore,,
+T10288,C027,2025-12-09 11:15,318203.16,cash_deposit,branch,Bahawalpur,,Crop sale proceeds
+T10289,C005,2025-12-09 11:18,8399.41,bill_payment,mobile_app,Lahore,,bill_payment
+T10290,C011,2025-12-09 12:19,127892.8,cheque_withdrawal,branch,Faisalabad,,Business payment
+T10291,C026,2025-12-09 14:04,383979.22,transfer_in,internet_banking,Karachi,UPWORK_ESCROW,Inward remittance - export services
+T10292,C019,2025-12-09 14:28,6479.49,bill_payment,branch,Rawalpindi,,
+T10293,C012,2025-12-09 14:32,92114.96,cash_withdrawal,ATM,Lahore,,Business payment
+T10294,C009,2025-12-10 12:28,1183.83,card_purchase,POS,Peshawar,,card_purchase
+T10295,C005,2025-12-10 14:02,2979.91,card_purchase,POS,Lahore,,card_purchase
+T10296,C011,2025-12-10 14:46,57818.85,cash_withdrawal,ATM,Faisalabad,,Business payment
+T10297,C011,2025-12-10 15:02,67632.57,transfer_out,mobile_app,Faisalabad,SUPPLIER,Business payment
+T10298,C012,2025-12-11 09:11,122821.08,cash_withdrawal,ATM,Lahore,,Business payment
+T10299,C024,2025-12-12 11:30,2200000.0,transfer_in,internet_banking,Karachi,BIZ_ACC_413,Transfer received
+T10300,C019,2025-12-12 14:43,6326.66,bill_payment,mobile_app,Rawalpindi,,
+T10301,C029,2025-12-12 18:05,148806.55,transfer_out,mobile_app,Karachi,SUPPLIER,Business payment
+T10302,C014,2025-12-13 09:43,45842.17,cash_withdrawal,ATM,Islamabad,,Business payment
+T10303,C004,2025-12-13 11:27,10000.0,cash_withdrawal,ATM,Karachi,,cash_withdrawal
+T10304,C015,2025-12-13 11:49,113166.72,transfer_in,internet_banking,Multan,CUST_B,Business receipt
+T10305,C009,2025-12-13 14:15,5276.97,card_purchase,POS,Peshawar,,card_purchase
+T10306,C013,2025-12-14 09:32,76243.27,cash_withdrawal,ATM,Karachi,,Business payment
+T10307,C024,2025-12-14 10:15,2176747.43,transfer_out,internet_banking,Karachi,OTHER_ACC_556,Transfer sent
+T10308,C001,2025-12-14 14:05,7348.5,transfer_out,mobile_app,Karachi,,transfer_out
+T10309,C012,2025-12-14 16:02,71318.9,transfer_in,internet_banking,Lahore,CUST_B,Business receipt
+T10310,C026,2025-12-14 21:57,3350.34,card_purchase,POS,Karachi,,
+T10311,C023,2025-12-15 17:12,58788.68,transfer_out,branch,Rawalpindi,,
+T10312,C007,2025-12-15 17:35,7344.16,card_purchase,POS,Rawalpindi,,card_purchase
+T10313,C027,2025-12-16 12:46,306730.37,cash_deposit,branch,Bahawalpur,,Crop sale proceeds
+T10314,C007,2025-12-16 16:32,9645.0,card_purchase,POS,Rawalpindi,,card_purchase
+T10315,C010,2025-12-17 12:54,10000.0,cash_withdrawal,ATM,Karachi,,cash_withdrawal
+T10316,C015,2025-12-17 13:31,117149.88,transfer_out,internet_banking,Multan,SUPPLIER,Business payment
+T10317,C005,2025-12-17 14:39,79254.04,transfer_out,mobile_app,Lahore,,transfer_out
+T10318,C014,2025-12-17 15:12,117974.53,cheque_withdrawal,branch,Islamabad,,Business payment
+T10319,C012,2025-12-18 00:36,300046.2,transfer_in,internet_banking,Lahore,CUST_A,Business receipt
+T10320,C019,2025-12-18 08:02,20000.0,cash_withdrawal,ATM,Rawalpindi,,
+T10321,C003,2025-12-18 10:15,11196.94,card_purchase,POS,Islamabad,,card_purchase
+T10322,C012,2025-12-18 13:38,59714.6,cash_withdrawal,ATM,Lahore,,Business payment
+T10323,C011,2025-12-18 15:42,86642.48,cash_withdrawal,ATM,Faisalabad,,Business payment
+T10324,C030,2025-12-19 07:40,3197.56,bill_payment,mobile_app,Lahore,,
+T10325,C021,2025-12-19 14:15,2200000.0,cash_deposit,branch,Gujranwala,,Cash deposit - source not specified
+T10326,C015,2025-12-19 17:50,284971.18,transfer_in,internet_banking,Multan,VENDOR_Y,Business receipt
+T10327,C019,2025-12-19 20:58,2917.51,bill_payment,branch,Rawalpindi,,
+T10328,C029,2025-12-19 22:35,329253.25,transfer_in,internet_banking,Karachi,VENDOR_Y,Business receipt
+T10329,C011,2025-12-20 08:07,96912.8,cash_withdrawal,ATM,Faisalabad,,Business payment
+T10330,C005,2025-12-20 11:15,5834.47,card_purchase,POS,Lahore,,card_purchase
+T10331,C027,2025-12-20 13:09,9682.71,bill_payment,mobile_app,Bahawalpur,,
+T10332,C007,2025-12-20 14:42,15000.0,cash_withdrawal,ATM,Rawalpindi,,cash_withdrawal
+T10333,C002,2025-12-20 15:25,7543.48,card_purchase,POS,Lahore,,card_purchase
+T10334,C014,2025-12-21 16:40,133668.25,transfer_in,internet_banking,Islamabad,VENDOR_Y,Business receipt
+T10335,C009,2025-12-21 17:57,22188.46,bill_payment,mobile_app,Peshawar,,bill_payment
+T10336,C028,2025-12-22 07:38,9676.5,bill_payment,mobile_app,Islamabad,,
+T10337,C017,2025-12-22 10:38,1557.38,card_purchase,POS,Islamabad,,
+T10338,C011,2025-12-22 10:54,185053.68,transfer_in,internet_banking,Faisalabad,CUST_B,Business receipt
+T10339,C023,2025-12-22 11:15,995000.0,cash_deposit,branch,Rawalpindi,,Cash deposit
+T10340,C030,2025-12-22 15:19,2552.61,card_purchase,POS,Lahore,,
+T10341,C027,2025-12-22 15:55,76407.02,transfer_out,mobile_app,Bahawalpur,,
+T10342,C015,2025-12-23 07:47,282449.12,transfer_in,internet_banking,Multan,VENDOR_Y,Business receipt
+T10343,C011,2025-12-23 11:11,442422.97,transfer_in,internet_banking,Faisalabad,VENDOR_Y,Business receipt
+T10344,C030,2025-12-23 14:20,10000.0,cash_withdrawal,ATM,Lahore,,
+T10345,C019,2025-12-23 20:49,5000.0,cash_withdrawal,ATM,Rawalpindi,,
+T10346,C030,2025-12-24 12:42,15000.0,cash_withdrawal,ATM,Lahore,,
+T10347,C016,2025-12-24 12:49,1107.17,card_purchase,POS,Lahore,,
+T10348,C023,2025-12-25 08:08,223226.94,transfer_in,internet_banking,Rawalpindi,PROPERTY_CLIENT,Commission
+T10349,C029,2025-12-25 10:05,276931.33,transfer_in,internet_banking,Karachi,CUST_B,Business receipt
+T10350,C013,2025-12-25 15:20,622608.56,transfer_in,internet_banking,Karachi,CUST_A,Business receipt
+T10351,C027,2025-12-25 15:52,345050.21,cash_deposit,branch,Bahawalpur,,Crop sale proceeds
+T10352,C008,2025-12-25 16:05,50000.0,cash_withdrawal,ATM,Faisalabad,,cash_withdrawal
+T10353,C009,2025-12-26 10:42,30000.0,cash_withdrawal,ATM,Peshawar,,cash_withdrawal
+T10354,C015,2025-12-26 10:51,82124.32,transfer_out,mobile_app,Multan,SUPPLIER,Business payment
+T10355,C023,2025-12-26 12:11,60553.76,cheque_withdrawal,internet_banking,Rawalpindi,,
+T10356,C011,2025-12-26 13:01,448754.45,transfer_in,internet_banking,Faisalabad,VENDOR_Y,Business receipt
+T10357,C014,2025-12-26 13:39,347572.28,transfer_in,internet_banking,Islamabad,VENDOR_Y,Business receipt
+T10358,C003,2025-12-26 21:01,7188.3,bill_payment,mobile_app,Islamabad,,bill_payment
+T10359,C011,2025-12-27 11:11,58666.69,transfer_out,mobile_app,Faisalabad,SUPPLIER,Business payment
+T10360,C010,2025-12-27 12:00,5000.0,cash_withdrawal,ATM,Karachi,,cash_withdrawal
+T10361,C011,2025-12-27 16:17,346756.37,transfer_in,internet_banking,Faisalabad,VENDOR_X,Business receipt
+T10362,C019,2025-12-27 17:10,10387.28,bill_payment,branch,Rawalpindi,,
+T10363,C005,2025-12-27 17:13,15000.0,cash_withdrawal,ATM,Lahore,,cash_withdrawal
+T10364,C013,2025-12-27 19:59,111023.52,cash_withdrawal,ATM,Karachi,,Business payment
+T10365,C013,2025-12-28 10:21,42996.84,cash_withdrawal,ATM,Karachi,,Business payment
+T10366,C030,2025-12-28 12:40,15000.0,cash_withdrawal,ATM,Lahore,,
+T10367,C007,2025-12-28 12:46,10000.0,cash_withdrawal,ATM,Rawalpindi,,cash_withdrawal
+T10368,C010,2025-12-28 17:34,4854.2,card_purchase,POS,Karachi,,card_purchase
+T10369,C007,2025-12-29 08:41,2457.13,bill_payment,mobile_app,Rawalpindi,,bill_payment
+T10370,C005,2025-12-29 09:56,9312.36,card_purchase,POS,Lahore,,card_purchase
+T10371,C024,2025-12-29 12:28,3416.95,card_purchase,POS,Karachi,,
+T10372,C029,2025-12-29 14:59,102695.68,transfer_out,mobile_app,Karachi,SUPPLIER,Business payment
+T10373,C018,2025-12-29 17:54,3000.0,cash_withdrawal,ATM,Karachi,,
+T10374,C029,2025-12-29 21:19,376859.25,transfer_in,internet_banking,Karachi,VENDOR_Y,Business receipt
+T10375,C009,2025-12-30 09:19,25000.0,cash_withdrawal,ATM,Peshawar,,cash_withdrawal
+T10376,C018,2025-12-30 10:55,5000.0,cash_withdrawal,ATM,Karachi,,
+T10377,C024,2025-12-30 11:39,5515.1,card_purchase,POS,Karachi,,
+T10378,C011,2025-12-30 15:44,121506.05,cheque_withdrawal,branch,Faisalabad,,Business payment
+T10379,C006,2025-12-30 15:49,18563.15,bill_payment,mobile_app,Karachi,,bill_payment
+T10380,C018,2025-12-30 16:06,2000.0,cash_withdrawal,ATM,Karachi,,
+T10381,C001,2025-12-31 09:54,2862.43,card_purchase,POS,Karachi,,card_purchase
+T10382,C030,2026-01-01 00:05,500.0,bill_payment,system,Lahore,AKBL_INTERNAL,Home Remittance Plus account maintenance fee (monthly)
+T10383,C029,2026-01-01 07:19,401557.35,transfer_in,internet_banking,Karachi,CUST_B,Business receipt
+T10384,C001,2026-01-01 08:08,282977.05,transfer_in,internet_banking,Karachi,EMPLOYER,Monthly salary
+T10385,C002,2026-01-01 10:14,47093.26,transfer_out,mobile_app,Lahore,,transfer_out
+T10386,C005,2026-01-01 10:32,372325.52,transfer_in,internet_banking,Lahore,EMPLOYER,Monthly salary
+T10387,C007,2026-01-01 12:25,232161.88,transfer_in,internet_banking,Rawalpindi,EMPLOYER,Monthly salary
+T10388,C016,2026-01-01 13:43,25000.0,transfer_in,internet_banking,Lahore,FAMILY,Allowance from family
+T10389,C026,2026-01-01 15:32,6987.59,card_purchase,POS,Karachi,,
+T10390,C021,2026-01-01 16:15,54469.11,transfer_in,internet_banking,Gujranwala,AGPR,Monthly pension
+T10391,C028,2026-01-02 00:23,9476.97,bill_payment,mobile_app,Islamabad,,
+T10392,C022,2026-01-02 06:42,20000.0,transfer_in,internet_banking,Karachi,FAMILY,Allowance
+T10393,C007,2026-01-02 09:27,5879.07,card_purchase,POS,Rawalpindi,,card_purchase
+T10394,C010,2026-01-02 10:37,279630.06,transfer_in,internet_banking,Karachi,EMPLOYER,Monthly salary
+T10395,C001,2026-01-02 12:10,5741.2,card_purchase,POS,Karachi,,card_purchase
+T10396,C029,2026-01-02 18:43,368722.86,transfer_in,internet_banking,Karachi,CUST_B,Business receipt
+T10397,C002,2026-01-03 09:44,304350.26,transfer_in,internet_banking,Lahore,EMPLOYER,Monthly salary
+T10398,C006,2026-01-03 09:45,198652.13,transfer_in,internet_banking,Karachi,EMPLOYER,Monthly salary
+T10399,C004,2026-01-03 10:15,428784.42,transfer_in,internet_banking,Karachi,EMPLOYER,Monthly salary
+T10400,C008,2026-01-03 11:20,213014.7,transfer_in,internet_banking,Faisalabad,EMPLOYER,Monthly salary
+T10401,C009,2026-01-03 16:28,172937.47,transfer_in,internet_banking,Peshawar,EMPLOYER,Monthly salary
+T10402,C010,2026-01-03 17:04,12514.29,bill_payment,mobile_app,Karachi,,bill_payment
+T10403,C003,2026-01-03 19:21,166083.79,transfer_in,internet_banking,Islamabad,EMPLOYER,Monthly salary
+T10404,C020,2026-01-03 20:07,65754.04,transfer_in,internet_banking,Lahore,AGPR,Monthly pension
+T10405,C014,2026-01-04 05:27,93781.98,transfer_out,internet_banking,Islamabad,SUPPLIER,Business payment
+T10406,C018,2026-01-04 09:28,20000.0,transfer_in,internet_banking,Karachi,FAMILY,Allowance from family
+T10407,C028,2026-01-04 10:28,60000.0,transfer_in,internet_banking,Islamabad,SPOUSE,Household expenses
+T10408,C024,2026-01-04 10:38,70000.0,transfer_in,internet_banking,Karachi,SPOUSE,Household expenses
+T10409,C018,2026-01-04 12:51,1592.9,card_purchase,POS,Karachi,,
+T10410,C030,2026-01-04 13:32,90309.98,transfer_in,internet_banking,Lahore,BRIGHTMINDS_SCHOOL,Monthly salary
+T10411,C018,2026-01-04 17:09,5000.0,cash_withdrawal,ATM,Karachi,,
+T10412,C017,2026-01-04 17:28,25000.0,transfer_in,internet_banking,Islamabad,FAMILY,Allowance from family
+T10413,C022,2026-01-04 19:16,749.22,card_purchase,POS,Karachi,,
+T10414,C029,2026-01-04 20:35,25325.64,transfer_out,internet_banking,Karachi,SUPPLIER,Business payment
+T10415,C001,2026-01-05 07:05,22869.03,bill_payment,mobile_app,Karachi,,bill_payment
+T10416,C019,2026-01-05 12:59,86412.75,transfer_in,internet_banking,Rawalpindi,AGPR,Monthly pension
+T10417,C010,2026-01-06 08:17,30000.0,cash_withdrawal,ATM,Karachi,,cash_withdrawal
+T10418,C029,2026-01-06 11:32,45370.87,cash_withdrawal,ATM,Karachi,,Business payment
+T10419,C002,2026-01-06 11:38,43142.8,transfer_out,internet_banking,Lahore,,transfer_out
+T10420,C017,2026-01-06 12:38,3000.0,cash_withdrawal,ATM,Islamabad,,
+T10421,C026,2026-01-06 13:38,443309.59,transfer_in,internet_banking,Karachi,UPWORK_ESCROW,Inward remittance - export services
+T10422,C020,2026-01-06 16:34,15000.0,cash_withdrawal,ATM,Lahore,,
+T10423,C001,2026-01-06 17:17,12069.22,bill_payment,mobile_app,Karachi,,bill_payment
+T10424,C007,2026-01-07 10:57,1859.66,bill_payment,mobile_app,Rawalpindi,,bill_payment
+T10425,C014,2026-01-07 14:42,275471.73,transfer_in,internet_banking,Islamabad,CUST_B,Business receipt
+T10426,C015,2026-01-08 08:29,115454.47,cheque_withdrawal,branch,Multan,,Business payment
+T10427,C028,2026-01-08 11:26,15645.15,bill_payment,mobile_app,Islamabad,,
+T10428,C022,2026-01-08 12:55,784.64,card_purchase,POS,Karachi,,
+T10429,C004,2026-01-08 21:16,26294.07,transfer_out,internet_banking,Karachi,,transfer_out
+T10430,C003,2026-01-11 11:42,22844.25,bill_payment,mobile_app,Islamabad,,bill_payment
+T10431,C023,2026-01-11 20:47,118812.23,cheque_withdrawal,internet_banking,Rawalpindi,,
+T10432,C013,2026-01-12 13:55,542161.36,transfer_in,internet_banking,Karachi,CUST_A,Business receipt
+T10433,C009,2026-01-12 16:46,3425.15,card_purchase,POS,Peshawar,,card_purchase
+T10434,C007,2026-01-13 09:20,25035.78,card_purchase,POS,Rawalpindi,,card_purchase
+T10435,C004,2026-01-13 12:12,9855.91,card_purchase,POS,Karachi,,card_purchase
+T10436,C026,2026-01-13 14:52,15563.16,bill_payment,mobile_app,Karachi,,
+T10437,C014,2026-01-13 16:55,330504.04,transfer_in,internet_banking,Islamabad,CUST_B,Business receipt
+T10438,C006,2026-01-13 21:39,20000.0,cash_withdrawal,ATM,Karachi,,cash_withdrawal
+T10439,C004,2026-01-14 09:29,74352.02,transfer_out,mobile_app,Karachi,,transfer_out
+T10440,C014,2026-01-14 15:02,244071.62,transfer_in,internet_banking,Islamabad,VENDOR_X,Business receipt
+T10441,C013,2026-01-14 15:03,218150.01,transfer_in,internet_banking,Karachi,CUST_B,Business receipt
+T10442,C013,2026-01-15 14:53,121200.52,cheque_withdrawal,branch,Karachi,,Business payment
+T10443,C020,2026-01-15 21:18,20000.0,cash_withdrawal,ATM,Lahore,,
+T10444,C015,2026-01-15 21:41,127570.44,transfer_out,mobile_app,Multan,SUPPLIER,Business payment
+T10445,C030,2026-01-16 11:33,6436.92,bill_payment,mobile_app,Lahore,,
+T10446,C010,2026-01-16 12:16,20000.0,cash_withdrawal,ATM,Karachi,,cash_withdrawal
+T10447,C009,2026-01-16 17:34,40000.0,cash_withdrawal,ATM,Peshawar,,cash_withdrawal
+T10448,C007,2026-01-16 17:42,53861.36,transfer_out,mobile_app,Rawalpindi,,transfer_out
+T10449,C026,2026-01-16 21:24,315899.35,transfer_in,internet_banking,Karachi,WISE_REMITTANCE,Inward remittance - export services
+T10450,C011,2026-01-17 11:47,83304.32,cash_withdrawal,ATM,Faisalabad,,Business payment
+T10451,C002,2026-01-17 12:38,5315.29,card_purchase,POS,Lahore,,card_purchase
+T10452,C012,2026-01-17 14:07,127699.4,cash_withdrawal,ATM,Lahore,,Business payment
+T10453,C024,2026-01-18 09:10,1620.36,card_purchase,POS,Karachi,,
+T10454,C023,2026-01-18 13:40,980000.0,cash_deposit,branch,Lahore,,Cash deposit
+T10455,C018,2026-01-18 15:20,3000.0,cash_withdrawal,ATM,Karachi,,
+T10456,C002,2026-01-18 15:57,15395.5,bill_payment,mobile_app,Lahore,,bill_payment
+T10457,C017,2026-01-18 21:43,2383.32,card_purchase,POS,Islamabad,,
+T10458,C010,2026-01-18 23:08,57269.38,transfer_out,mobile_app,Karachi,,transfer_out
+T10459,C012,2026-01-19 11:47,135950.64,cheque_withdrawal,branch,Lahore,,Business payment
+T10460,C025,2026-01-20 10:30,800000.0,cash_deposit,branch,Lahore,,Account reactivation activity
+T10461,C009,2026-01-20 11:31,9146.53,card_purchase,POS,Peshawar,,card_purchase
+T10462,C029,2026-01-20 13:05,136911.92,transfer_out,mobile_app,Karachi,SUPPLIER,Business payment
+T10463,C007,2026-01-20 19:38,71501.03,transfer_out,mobile_app,Rawalpindi,,transfer_out
+T10464,C024,2026-01-20 20:17,1520.02,card_purchase,POS,Karachi,,
+T10465,C003,2026-01-21 10:57,4905.03,bill_payment,mobile_app,Islamabad,,bill_payment
+T10466,C012,2026-01-21 14:05,63028.17,cash_withdrawal,ATM,Lahore,,Business payment
+T10467,C005,2026-01-21 14:53,3783.65,bill_payment,mobile_app,Lahore,,bill_payment
+T10468,C012,2026-01-21 15:07,77141.49,cheque_withdrawal,branch,Lahore,,Business payment
+T10469,C029,2026-01-21 16:02,89784.42,transfer_in,internet_banking,Karachi,VENDOR_Y,Business receipt
+T10470,C028,2026-01-21 16:33,10000.0,cash_withdrawal,ATM,Islamabad,,
+T10471,C013,2026-01-21 19:56,54889.91,cash_withdrawal,ATM,Karachi,,Business payment
+T10472,C012,2026-01-22 09:19,165999.07,transfer_in,internet_banking,Lahore,VENDOR_Y,Business receipt
+T10473,C021,2026-01-22 10:45,1950000.0,cash_deposit,branch,Gujranwala,,Cash deposit - source not specified
+T10474,C019,2026-01-22 11:26,5191.17,bill_payment,branch,Rawalpindi,,
+T10475,C025,2026-01-22 11:45,1200000.0,transfer_in,internet_banking,Lahore,,Account reactivation activity
+T10476,C014,2026-01-22 14:10,80320.37,cash_withdrawal,ATM,Islamabad,,Business payment
+T10477,C026,2026-01-23 10:13,54601.66,transfer_out,internet_banking,Karachi,,
+T10478,C027,2026-01-23 12:43,61518.5,transfer_out,mobile_app,Bahawalpur,,
+T10479,C029,2026-01-23 15:39,36491.02,transfer_out,internet_banking,Karachi,SUPPLIER,Business payment
+T10480,C029,2026-01-24 08:57,133606.88,cash_withdrawal,ATM,Karachi,,Business payment
+T10481,C028,2026-01-24 09:58,10000.0,cash_withdrawal,ATM,Islamabad,,
+T10482,C028,2026-01-24 12:06,3467.19,bill_payment,mobile_app,Islamabad,,
+T10483,C015,2026-01-25 11:23,53391.17,cash_withdrawal,ATM,Multan,,Business payment
+T10484,C025,2026-01-25 14:20,650000.0,transfer_out,internet_banking,Lahore,,Account reactivation activity
+T10485,C013,2026-01-25 15:05,533176.77,transfer_in,internet_banking,Karachi,VENDOR_X,Business receipt
+T10486,C013,2026-01-25 15:59,137101.26,cheque_withdrawal,branch,Karachi,,Business payment
+T10487,C005,2026-01-26 12:20,77499.11,transfer_out,mobile_app,Lahore,,transfer_out
+T10488,C001,2026-01-26 12:34,4855.43,card_purchase,POS,Karachi,,card_purchase
+T10489,C017,2026-01-26 16:41,1215.72,card_purchase,POS,Islamabad,,
+T10490,C028,2026-01-27 08:37,5000.0,cash_withdrawal,ATM,Islamabad,,
+T10491,C008,2026-01-27 14:42,6499.11,bill_payment,mobile_app,Faisalabad,,bill_payment
+T10492,C029,2026-01-27 19:49,112929.77,cheque_withdrawal,branch,Karachi,,Business payment
+T10493,C011,2026-01-28 10:27,203734.43,transfer_in,internet_banking,Faisalabad,VENDOR_X,Business receipt
+T10494,C026,2026-01-28 14:43,18729.32,bill_payment,mobile_app,Karachi,,
+T10495,C013,2026-01-29 08:22,126248.94,transfer_in,internet_banking,Karachi,VENDOR_Y,Business receipt
+T10496,C029,2026-01-29 08:57,129307.09,transfer_out,mobile_app,Karachi,SUPPLIER,Business payment
+T10497,C013,2026-01-29 09:15,129101.84,cheque_withdrawal,branch,Karachi,,Business payment
+T10498,C011,2026-01-29 10:30,125050.69,cheque_withdrawal,branch,Faisalabad,,Business payment
+T10499,C010,2026-01-29 11:01,10000.0,cash_withdrawal,ATM,Karachi,,cash_withdrawal
+T10500,C022,2026-01-29 16:02,2429.78,card_purchase,POS,Karachi,,
+T10501,C029,2026-01-29 19:44,24816.77,transfer_out,mobile_app,Karachi,SUPPLIER,Business payment
+T10502,C011,2026-01-30 12:35,137465.98,cash_withdrawal,ATM,Faisalabad,,Business payment
+T10503,C014,2026-01-30 15:45,404131.11,transfer_in,internet_banking,Islamabad,VENDOR_Y,Business receipt
+T10504,C011,2026-01-31 07:07,86820.14,transfer_out,mobile_app,Faisalabad,SUPPLIER,Business payment
+T10505,C026,2026-01-31 14:33,23935.84,bill_payment,mobile_app,Karachi,,
+T10506,C030,2026-02-01 00:05,500.0,bill_payment,system,Lahore,AKBL_INTERNAL,Home Remittance Plus account maintenance fee (monthly)
+T10507,C030,2026-02-01 09:53,91774.07,transfer_in,internet_banking,Lahore,BRIGHTMINDS_SCHOOL,Monthly salary
+T10508,C028,2026-02-01 12:23,90000.0,transfer_in,internet_banking,Islamabad,SPOUSE,Household expenses
+T10509,C003,2026-02-01 15:18,166815.37,transfer_in,internet_banking,Islamabad,EMPLOYER,Monthly salary
+T10510,C020,2026-02-01 15:31,65055.38,transfer_in,internet_banking,Lahore,AGPR,Monthly pension
+T10511,C009,2026-02-01 15:47,178115.99,transfer_in,internet_banking,Peshawar,EMPLOYER,Monthly salary
+T10512,C004,2026-02-01 16:13,55174.12,transfer_out,mobile_app,Karachi,,transfer_out
+T10513,C005,2026-02-01 21:54,376343.98,transfer_in,internet_banking,Lahore,EMPLOYER,Monthly salary
+T10514,C007,2026-02-02 11:17,240731.81,transfer_in,internet_banking,Rawalpindi,EMPLOYER,Monthly salary
+T10515,C003,2026-02-02 12:52,1322.57,card_purchase,POS,Islamabad,,card_purchase
+T10516,C008,2026-02-02 13:28,219670.51,transfer_in,internet_banking,Faisalabad,EMPLOYER,Monthly salary
+T10517,C004,2026-02-02 14:42,448843.28,transfer_in,internet_banking,Karachi,EMPLOYER,Monthly salary
+T10518,C006,2026-02-02 17:35,196994.52,transfer_in,internet_banking,Karachi,EMPLOYER,Monthly salary
+T10519,C010,2026-02-03 05:06,5983.82,card_purchase,POS,Karachi,,card_purchase
+T10520,C010,2026-02-03 08:42,269257.82,transfer_in,internet_banking,Karachi,EMPLOYER,Monthly salary
+T10521,C017,2026-02-03 09:45,2197.33,bill_payment,mobile_app,Islamabad,,
+T10522,C025,2026-02-03 10:15,1500000.0,cash_deposit,branch,Lahore,,Account reactivation activity
+T10523,C002,2026-02-03 12:14,312845.35,transfer_in,internet_banking,Lahore,EMPLOYER,Monthly salary
+T10524,C011,2026-02-03 13:04,59838.81,cash_withdrawal,ATM,Faisalabad,,Business payment
+T10525,C001,2026-02-03 14:06,279878.22,transfer_in,internet_banking,Karachi,EMPLOYER,Monthly salary
+T10526,C019,2026-02-03 15:01,85375.38,transfer_in,internet_banking,Rawalpindi,AGPR,Monthly pension
+T10527,C011,2026-02-03 16:35,479081.32,transfer_in,internet_banking,Faisalabad,CUST_B,Business receipt
+T10528,C021,2026-02-04 10:40,54085.02,transfer_in,internet_banking,Gujranwala,AGPR,Monthly pension
+T10529,C014,2026-02-04 12:02,288951.34,transfer_in,internet_banking,Islamabad,CUST_B,Business receipt
+T10530,C026,2026-02-04 18:01,26948.86,card_purchase,POS,Karachi,,
+T10531,C018,2026-02-04 18:21,30000.0,transfer_in,internet_banking,Karachi,FAMILY,Allowance from family
+T10532,C017,2026-02-05 11:37,15000.0,transfer_in,internet_banking,Islamabad,FAMILY,Allowance from family
+T10533,C030,2026-02-05 11:41,2849.65,card_purchase,POS,Lahore,,
+T10534,C022,2026-02-05 12:23,20000.0,transfer_in,internet_banking,Karachi,FAMILY,Allowance
+T10535,C024,2026-02-05 13:15,1800000.0,transfer_in,internet_banking,Karachi,BIZ_ACC_717,Transfer received
+T10536,C016,2026-02-05 14:57,25000.0,transfer_in,internet_banking,Lahore,FAMILY,Allowance from family
+T10537,C024,2026-02-05 17:18,85000.0,transfer_in,internet_banking,Karachi,SPOUSE,Household expenses
+T10538,C014,2026-02-06 11:37,222454.85,transfer_in,internet_banking,Islamabad,VENDOR_X,Business receipt
+T10539,C028,2026-02-06 14:09,2537.65,card_purchase,POS,Islamabad,,
+T10540,C024,2026-02-06 15:40,1783556.38,transfer_out,internet_banking,Karachi,OTHER_ACC_834,Transfer sent
+T10541,C003,2026-02-06 17:48,3755.19,card_purchase,POS,Islamabad,,card_purchase
+T10542,C001,2026-02-07 11:38,468.11,card_purchase,POS,Karachi,,card_purchase
+T10543,C025,2026-02-07 13:40,2000000.0,transfer_in,internet_banking,Lahore,,Account reactivation activity
+T10544,C026,2026-02-07 15:36,437676.13,transfer_in,internet_banking,Karachi,UPWORK_ESCROW,Inward remittance - export services
+T10545,C008,2026-02-08 07:30,5000.0,cash_withdrawal,ATM,Faisalabad,,cash_withdrawal
+T10546,C029,2026-02-08 08:23,207822.63,transfer_in,internet_banking,Karachi,CUST_A,Business receipt
+T10547,C002,2026-02-08 12:31,2120.94,card_purchase,POS,Lahore,,card_purchase
+T10548,C023,2026-02-09 10:05,990000.0,cash_deposit,branch,Rawalpindi,,Cash deposit
+T10549,C008,2026-02-09 11:42,5669.83,bill_payment,mobile_app,Faisalabad,,bill_payment
+T10550,C019,2026-02-09 12:07,8901.72,bill_payment,branch,Rawalpindi,,
+T10551,C023,2026-02-09 15:30,975000.0,cash_deposit,branch,Islamabad,,Cash deposit
+T10552,C026,2026-02-10 09:24,30279.24,transfer_out,mobile_app,Karachi,,
+T10553,C012,2026-02-10 13:41,129114.45,cheque_withdrawal,branch,Lahore,,Business payment
+T10554,C025,2026-02-10 15:10,1800000.0,transfer_out,internet_banking,Lahore,,Account reactivation activity
+T10555,C013,2026-02-10 16:23,385628.89,transfer_in,internet_banking,Karachi,VENDOR_Y,Business receipt
+T10556,C009,2026-02-11 12:31,6730.55,bill_payment,mobile_app,Peshawar,,bill_payment
+T10557,C012,2026-02-11 15:24,202682.36,transfer_in,internet_banking,Lahore,VENDOR_Y,Business receipt
+T10558,C020,2026-02-12 08:05,7676.77,bill_payment,mobile_app,Lahore,,
+T10559,C015,2026-02-13 11:32,249782.44,transfer_in,internet_banking,Multan,VENDOR_X,Business receipt
+T10560,C019,2026-02-13 13:13,3201.15,bill_payment,branch,Rawalpindi,,
+T10561,C014,2026-02-13 14:26,110265.07,cash_withdrawal,ATM,Islamabad,,Business payment
+T10562,C003,2026-02-14 08:49,2295.22,card_purchase,POS,Islamabad,,card_purchase
+T10563,C022,2026-02-14 16:22,750000.0,transfer_in,internet_banking,Karachi,UNKNOWN_PARTY_1,Transfer received
+T10564,C022,2026-02-15 10:30,500000.0,cash_withdrawal,branch,Karachi,,Cash withdrawal
+T10565,C002,2026-02-15 11:16,50000.0,cash_withdrawal,ATM,Lahore,,cash_withdrawal
+T10566,C004,2026-02-15 13:28,5200.67,card_purchase,POS,Karachi,,card_purchase
+T10567,C015,2026-02-16 09:56,65368.15,transfer_in,internet_banking,Multan,VENDOR_X,Business receipt
+T10568,C014,2026-02-16 10:02,337777.91,transfer_in,internet_banking,Islamabad,CUST_A,Business receipt
+T10569,C003,2026-02-16 11:49,27858.59,transfer_out,mobile_app,Islamabad,,transfer_out
+T10570,C026,2026-02-16 12:23,513927.96,transfer_in,internet_banking,Karachi,DEEL_PAYROLL,Inward remittance - export services
+T10571,C030,2026-02-16 13:37,683.17,card_purchase,POS,Lahore,,
+T10572,C009,2026-02-16 16:29,785.74,card_purchase,POS,Peshawar,,card_purchase
+T10573,C004,2026-02-16 18:53,6157.61,card_purchase,POS,Karachi,,card_purchase
+T10574,C001,2026-02-17 09:26,11560.31,card_purchase,POS,Karachi,,card_purchase
+T10575,C023,2026-02-17 10:21,100154.42,transfer_in,internet_banking,Rawalpindi,PROPERTY_CLIENT,Commission
+T10576,C023,2026-02-17 10:30,37073.57,cheque_withdrawal,branch,Rawalpindi,,
+T10577,C009,2026-02-17 16:51,15209.17,bill_payment,mobile_app,Peshawar,,bill_payment
+T10578,C007,2026-02-18 10:53,3009.31,card_purchase,POS,Rawalpindi,,card_purchase
+T10579,C029,2026-02-18 13:46,133070.01,cash_withdrawal,ATM,Karachi,,Business payment
+T10580,C004,2026-02-18 15:06,7718.97,card_purchase,POS,Karachi,,card_purchase
+T10581,C030,2026-02-19 06:34,3370.34,card_purchase,POS,Lahore,,
+T10582,C006,2026-02-19 10:09,3103.08,card_purchase,POS,Karachi,,card_purchase
+T10583,C013,2026-02-19 14:00,38242.26,cash_withdrawal,ATM,Karachi,,Business payment
+T10584,C012,2026-02-19 15:04,80019.19,transfer_in,internet_banking,Lahore,CUST_B,Business receipt
+T10585,C013,2026-02-19 16:09,67192.56,cheque_withdrawal,branch,Karachi,,Business payment
+T10586,C002,2026-02-19 18:55,23696.92,transfer_out,mobile_app,Lahore,,transfer_out
+T10587,C026,2026-02-19 19:08,10000.0,cash_withdrawal,ATM,Karachi,,
+T10588,C011,2026-02-20 13:00,275176.37,transfer_in,internet_banking,Faisalabad,CUST_B,Business receipt
+T10589,C015,2026-02-20 14:23,130488.48,transfer_out,mobile_app,Multan,SUPPLIER,Business payment
+T10590,C018,2026-02-20 15:03,3000.0,cash_withdrawal,ATM,Karachi,,
+T10591,C004,2026-02-20 15:42,50000.0,cash_withdrawal,ATM,Karachi,,cash_withdrawal
+T10592,C022,2026-02-21 11:45,1200000.0,transfer_in,internet_banking,Karachi,UNKNOWN_PARTY_2,Transfer received
+T10593,C008,2026-02-21 19:38,2382.1,card_purchase,POS,Faisalabad,,card_purchase
+T10594,C005,2026-02-22 11:06,12594.48,card_purchase,POS,Lahore,,card_purchase
+T10595,C022,2026-02-22 12:15,800000.0,cash_withdrawal,branch,Karachi,,Cash withdrawal
+T10596,C027,2026-02-22 13:48,49692.89,transfer_out,mobile_app,Bahawalpur,,
+T10597,C010,2026-02-22 14:13,7867.5,bill_payment,mobile_app,Karachi,,bill_payment
+T10598,C005,2026-02-22 14:33,4863.8,card_purchase,POS,Lahore,,card_purchase
+T10599,C011,2026-02-23 06:39,307974.79,transfer_in,internet_banking,Faisalabad,VENDOR_Y,Business receipt
+T10600,C003,2026-02-23 09:05,6445.84,card_purchase,POS,Islamabad,,card_purchase
+T10601,C015,2026-02-24 08:22,82749.0,transfer_in,internet_banking,Multan,VENDOR_X,Business receipt
+T10602,C018,2026-02-24 12:14,1561.61,bill_payment,mobile_app,Karachi,,
+T10603,C026,2026-02-24 14:23,10367.4,bill_payment,mobile_app,Karachi,,
+T10604,C012,2026-02-25 10:02,61149.95,transfer_out,mobile_app,Lahore,SUPPLIER,Business payment
+T10605,C001,2026-02-25 11:12,30000.0,cash_withdrawal,ATM,Karachi,,cash_withdrawal
+T10606,C009,2026-02-25 13:24,2823.13,bill_payment,mobile_app,Peshawar,,bill_payment
+T10607,C020,2026-02-25 15:27,8190.93,bill_payment,mobile_app,Lahore,,
+T10608,C005,2026-02-26 10:38,2348.16,card_purchase,POS,Lahore,,card_purchase
+T10609,C023,2026-02-26 14:47,157541.84,transfer_in,internet_banking,Rawalpindi,PROPERTY_CLIENT,Commission
+T10610,C009,2026-02-27 09:44,3743.99,card_purchase,POS,Peshawar,,card_purchase
+T10611,C014,2026-02-27 10:09,69303.56,transfer_out,mobile_app,Islamabad,SUPPLIER,Business payment
+T10612,C015,2026-02-27 12:24,69750.45,cash_withdrawal,ATM,Multan,,Business payment
+T10613,C014,2026-02-28 09:19,138625.07,cash_withdrawal,ATM,Islamabad,,Business payment
+T10614,C001,2026-02-28 11:17,50000.0,cash_withdrawal,ATM,Karachi,,cash_withdrawal
+T10615,C015,2026-02-28 13:47,122104.97,cash_withdrawal,ATM,Multan,,Business payment
+T10616,C013,2026-02-28 17:37,115070.27,cash_withdrawal,ATM,Karachi,,Business payment
+T10617,C016,2026-02-28 19:13,595.03,card_purchase,POS,Lahore,,
+T10618,C030,2026-03-01 00:05,500.0,bill_payment,system,Lahore,AKBL_INTERNAL,Home Remittance Plus account maintenance fee (monthly)
+T10619,C007,2026-03-01 05:49,229950.02,transfer_in,internet_banking,Rawalpindi,EMPLOYER,Monthly salary
+T10620,C010,2026-03-01 10:05,271772.08,transfer_in,internet_banking,Karachi,EMPLOYER,Monthly salary
+T10621,C006,2026-03-01 10:07,185780.09,transfer_in,internet_banking,Karachi,EMPLOYER,Monthly salary
+T10622,C016,2026-03-01 11:25,25000.0,transfer_in,internet_banking,Lahore,FAMILY,Allowance from family
+T10623,C024,2026-03-01 15:05,85000.0,transfer_in,internet_banking,Karachi,SPOUSE,Household expenses
+T10624,C030,2026-03-01 15:33,92343.27,transfer_in,internet_banking,Lahore,BRIGHTMINDS_SCHOOL,Monthly salary
+T10625,C005,2026-03-01 18:04,382759.19,transfer_in,internet_banking,Lahore,EMPLOYER,Monthly salary
+T10626,C028,2026-03-01 19:41,60000.0,transfer_in,internet_banking,Islamabad,SPOUSE,Household expenses
+T10627,C004,2026-03-02 06:13,443630.93,transfer_in,internet_banking,Karachi,EMPLOYER,Monthly salary
+T10628,C028,2026-03-02 08:32,2151.77,bill_payment,mobile_app,Islamabad,,
+T10629,C016,2026-03-02 09:00,2399.72,bill_payment,mobile_app,Lahore,,
+T10630,C025,2026-03-02 11:25,900000.0,cash_withdrawal,branch,Lahore,,Account reactivation activity
+T10631,C008,2026-03-02 11:43,223424.38,transfer_in,internet_banking,Faisalabad,EMPLOYER,Monthly salary
+T10632,C021,2026-03-02 12:34,5000.0,cash_withdrawal,ATM,Gujranwala,,
+T10633,C009,2026-03-02 15:28,176502.81,transfer_in,internet_banking,Peshawar,EMPLOYER,Monthly salary
+T10634,C003,2026-03-02 16:10,158904.88,transfer_in,internet_banking,Islamabad,EMPLOYER,Monthly salary
+T10635,C019,2026-03-02 19:17,84648.61,transfer_in,internet_banking,Rawalpindi,AGPR,Monthly pension
+T10636,C029,2026-03-02 23:24,381333.42,transfer_in,internet_banking,Karachi,CUST_B,Business receipt
+T10637,C001,2026-03-03 06:47,285010.23,transfer_in,internet_banking,Karachi,EMPLOYER,Monthly salary
+T10638,C019,2026-03-03 08:03,10000.0,cash_withdrawal,ATM,Rawalpindi,,
+T10639,C003,2026-03-03 09:20,14051.1,bill_payment,mobile_app,Islamabad,,bill_payment
+T10640,C002,2026-03-03 11:20,304315.39,transfer_in,internet_banking,Lahore,EMPLOYER,Monthly salary
+T10641,C017,2026-03-04 07:32,20000.0,transfer_in,internet_banking,Islamabad,FAMILY,Allowance from family
+T10642,C020,2026-03-04 09:11,66191.24,transfer_in,internet_banking,Lahore,AGPR,Monthly pension
+T10643,C012,2026-03-04 14:16,44209.44,transfer_out,internet_banking,Lahore,SUPPLIER,Business payment
+T10644,C018,2026-03-04 15:26,15000.0,transfer_in,internet_banking,Karachi,FAMILY,Allowance from family
+T10645,C010,2026-03-05 08:38,75539.89,transfer_out,mobile_app,Karachi,,transfer_out
+T10646,C012,2026-03-05 09:38,194352.69,transfer_in,internet_banking,Lahore,CUST_B,Business receipt
+T10647,C021,2026-03-05 11:29,55131.66,transfer_in,internet_banking,Gujranwala,AGPR,Monthly pension
+T10648,C022,2026-03-05 14:10,900000.0,transfer_in,internet_banking,Karachi,UNKNOWN_PARTY_3,Transfer received
+T10649,C015,2026-03-05 14:51,150688.51,transfer_in,internet_banking,Multan,VENDOR_X,Business receipt
+T10650,C022,2026-03-05 17:34,20000.0,transfer_in,internet_banking,Karachi,FAMILY,Allowance
+T10651,C015,2026-03-05 17:47,139040.16,transfer_in,internet_banking,Multan,VENDOR_Y,Business receipt
+T10652,C012,2026-03-06 09:47,226056.92,transfer_in,internet_banking,Lahore,CUST_A,Business receipt
+T10653,C022,2026-03-06 11:05,600000.0,cash_withdrawal,branch,Karachi,,Cash withdrawal
+T10654,C015,2026-03-06 12:14,127119.07,cash_withdrawal,ATM,Multan,,Business payment
+T10655,C029,2026-03-06 12:18,64763.77,cash_withdrawal,ATM,Karachi,,Business payment
+T10656,C007,2026-03-07 10:36,13665.34,card_purchase,POS,Rawalpindi,,card_purchase
+T10657,C011,2026-03-07 12:51,199358.34,transfer_in,internet_banking,Faisalabad,VENDOR_Y,Business receipt
+T10658,C015,2026-03-07 17:26,67117.83,cheque_withdrawal,branch,Multan,,Business payment
+T10659,C015,2026-03-08 16:16,206119.22,transfer_in,internet_banking,Multan,CUST_B,Business receipt
+T10660,C014,2026-03-08 20:43,57953.4,transfer_out,mobile_app,Islamabad,SUPPLIER,Business payment
+T10661,C017,2026-03-09 15:40,3000.0,cash_withdrawal,ATM,Islamabad,,
+T10662,C002,2026-03-10 07:10,40000.0,cash_withdrawal,ATM,Lahore,,cash_withdrawal
+T10663,C015,2026-03-10 09:06,159382.63,transfer_in,internet_banking,Multan,CUST_A,Business receipt
+T10664,C001,2026-03-10 10:39,54689.17,transfer_out,internet_banking,Karachi,,transfer_out
+T10665,C013,2026-03-10 15:28,506264.21,transfer_in,internet_banking,Karachi,CUST_A,Business receipt
+T10666,C010,2026-03-10 16:15,6677.87,card_purchase,POS,Karachi,,card_purchase
+T10667,C012,2026-03-10 16:37,35519.74,cash_withdrawal,ATM,Lahore,,Business payment
+T10668,C021,2026-03-11 04:32,10000.0,cash_withdrawal,ATM,Gujranwala,,
+T10669,C028,2026-03-11 10:41,16565.43,bill_payment,mobile_app,Islamabad,,
+T10670,C014,2026-03-11 13:43,115648.94,cheque_withdrawal,branch,Islamabad,,Business payment
+T10671,C021,2026-03-11 15:20,2400000.0,cash_deposit,branch,Gujranwala,,Cash deposit - source not specified
+T10672,C008,2026-03-11 16:36,1807.96,card_purchase,POS,Faisalabad,,card_purchase
+T10673,C012,2026-03-12 08:52,127923.96,cheque_withdrawal,branch,Lahore,,Business payment
+T10674,C022,2026-03-12 10:24,2381.31,card_purchase,POS,Karachi,,
+T10675,C011,2026-03-12 13:57,414337.29,transfer_in,internet_banking,Faisalabad,VENDOR_Y,Business receipt
+T10676,C015,2026-03-12 14:52,51166.26,cheque_withdrawal,branch,Multan,,Business payment
+T10677,C001,2026-03-12 17:10,19062.02,bill_payment,mobile_app,Karachi,,bill_payment
+T10678,C003,2026-03-13 09:32,6856.48,bill_payment,mobile_app,Islamabad,,bill_payment
+T10679,C014,2026-03-13 11:16,96093.04,cheque_withdrawal,branch,Islamabad,,Business payment
+T10680,C024,2026-03-13 12:50,506.78,card_purchase,POS,Karachi,,
+T10681,C026,2026-03-13 18:15,453828.47,transfer_in,internet_banking,Karachi,UPWORK_ESCROW,Inward remittance - export services
+T10682,C029,2026-03-14 08:50,213734.12,transfer_in,internet_banking,Karachi,VENDOR_X,Business receipt
+T10683,C023,2026-03-14 09:11,170280.91,transfer_in,internet_banking,Rawalpindi,PROPERTY_CLIENT,Commission
+T10684,C002,2026-03-14 12:29,15887.61,card_purchase,POS,Lahore,,card_purchase
+T10685,C016,2026-03-14 16:40,1000.0,cash_withdrawal,ATM,Lahore,,
+T10686,C027,2026-03-14 16:40,58456.13,transfer_out,mobile_app,Bahawalpur,,
+T10687,C012,2026-03-15 09:09,84946.98,cheque_withdrawal,branch,Lahore,,Business payment
+T10688,C025,2026-03-15 14:50,1100000.0,transfer_out,internet_banking,Lahore,,Account reactivation activity
+T10689,C023,2026-03-15 17:12,145220.76,cheque_withdrawal,internet_banking,Rawalpindi,,
+T10690,C029,2026-03-15 17:42,118674.5,transfer_in,internet_banking,Karachi,VENDOR_Y,Business receipt
+T10691,C014,2026-03-16 14:05,439175.11,transfer_in,internet_banking,Islamabad,VENDOR_X,Business receipt
+T10692,C026,2026-03-17 16:20,508635.67,transfer_in,internet_banking,Karachi,WISE_REMITTANCE,Inward remittance - export services
+T10693,C027,2026-03-17 18:04,50000.0,cash_withdrawal,branch,Bahawalpur,,
+T10694,C015,2026-03-18 09:25,115268.79,transfer_in,internet_banking,Multan,VENDOR_X,Business receipt
+T10695,C013,2026-03-18 10:55,607772.99,transfer_in,internet_banking,Karachi,VENDOR_Y,Business receipt
+T10696,C003,2026-03-18 15:30,58420.29,transfer_out,mobile_app,Islamabad,,transfer_out
+T10697,C017,2026-03-18 17:33,1535.58,bill_payment,mobile_app,Islamabad,,
+T10698,C004,2026-03-18 19:27,3465.33,card_purchase,POS,Karachi,,card_purchase
+T10699,C022,2026-03-18 22:40,2125.34,card_purchase,POS,Karachi,,
+T10700,C029,2026-03-19 13:21,244020.98,transfer_in,internet_banking,Karachi,CUST_B,Business receipt
+T10701,C005,2026-03-19 18:06,60557.65,transfer_out,mobile_app,Lahore,,transfer_out
+T10702,C013,2026-03-19 21:25,365809.63,transfer_in,internet_banking,Karachi,CUST_A,Business receipt
+T10703,C007,2026-03-20 07:58,2863.51,card_purchase,POS,Rawalpindi,,card_purchase
+T10704,C005,2026-03-20 09:52,13680.75,bill_payment,mobile_app,Lahore,,bill_payment
+T10705,C018,2026-03-21 09:07,920.06,bill_payment,mobile_app,Karachi,,
+T10706,C015,2026-03-21 10:47,135640.26,cash_withdrawal,ATM,Multan,,Business payment
+T10707,C006,2026-03-21 10:55,30000.0,cash_withdrawal,ATM,Karachi,,cash_withdrawal
+T10708,C030,2026-03-21 16:05,10654.24,bill_payment,mobile_app,Lahore,,
+T10709,C014,2026-03-22 16:54,335245.51,transfer_in,internet_banking,Islamabad,VENDOR_Y,Business receipt
+T10710,C004,2026-03-22 18:41,24345.62,transfer_out,mobile_app,Karachi,,transfer_out
+T10711,C012,2026-03-22 19:52,11054.81,cheque_withdrawal,branch,Lahore,,Business payment
+T10712,C029,2026-03-23 07:36,56067.19,cheque_withdrawal,branch,Karachi,,Business payment
+T10713,C029,2026-03-23 12:24,120059.89,transfer_in,internet_banking,Karachi,VENDOR_X,Business receipt
+T10714,C028,2026-03-23 15:38,4918.31,card_purchase,POS,Islamabad,,
+T10715,C007,2026-03-23 17:53,18035.96,bill_payment,mobile_app,Rawalpindi,,bill_payment
+T10716,C010,2026-03-23 18:58,46369.09,transfer_out,internet_banking,Karachi,,transfer_out
+T10717,C026,2026-03-24 08:54,102451.4,transfer_out,internet_banking,Karachi,,
+T10718,C006,2026-03-24 12:15,15000.0,cash_withdrawal,ATM,Karachi,,cash_withdrawal
+T10719,C001,2026-03-24 14:41,8168.31,card_purchase,POS,Karachi,,card_purchase
+T10720,C023,2026-03-25 19:29,33285.17,cheque_withdrawal,branch,Rawalpindi,,
+T10721,C024,2026-03-26 09:28,1345.12,card_purchase,POS,Karachi,,
+T10722,C006,2026-03-26 11:57,4381.03,card_purchase,POS,Karachi,,card_purchase
+T10723,C003,2026-03-26 12:12,40000.0,cash_withdrawal,ATM,Islamabad,,cash_withdrawal
+T10724,C012,2026-03-26 14:19,113155.15,cash_withdrawal,ATM,Lahore,,Business payment
+T10725,C011,2026-03-26 14:30,511745.5,transfer_in,internet_banking,Faisalabad,VENDOR_Y,Business receipt
+T10726,C012,2026-03-26 15:38,293532.3,transfer_in,internet_banking,Lahore,VENDOR_Y,Business receipt
+T10727,C020,2026-03-26 15:58,8778.34,bill_payment,branch,Lahore,,
+T10728,C014,2026-03-26 16:16,13223.16,cheque_withdrawal,branch,Islamabad,,Business payment
+T10729,C009,2026-03-27 11:09,20000.0,cash_withdrawal,ATM,Peshawar,,cash_withdrawal
+T10730,C026,2026-03-27 16:58,114123.75,transfer_out,mobile_app,Karachi,,
+T10731,C013,2026-03-27 18:31,119687.1,transfer_in,internet_banking,Karachi,VENDOR_X,Business receipt
+T10732,C008,2026-03-28 10:24,10376.63,bill_payment,mobile_app,Faisalabad,,bill_payment
+T10733,C001,2026-03-28 16:27,5222.73,card_purchase,POS,Karachi,,card_purchase
+T10734,C011,2026-03-28 17:08,82133.05,cash_withdrawal,ATM,Faisalabad,,Business payment
+T10735,C006,2026-03-29 10:06,21920.37,card_purchase,POS,Karachi,,card_purchase
+T10736,C015,2026-03-29 15:19,83870.68,cash_withdrawal,ATM,Multan,,Business payment
+T10737,C015,2026-03-29 17:18,281939.49,transfer_in,internet_banking,Multan,CUST_A,Business receipt
+T10738,C012,2026-03-30 17:18,59580.53,cash_withdrawal,ATM,Lahore,,Business payment
+T10739,C026,2026-03-31 11:04,11018.65,bill_payment,mobile_app,Karachi,,
+T10740,C013,2026-03-31 12:10,86804.44,cheque_withdrawal,branch,Karachi,,Business payment
+T10741,C011,2026-03-31 18:09,344725.68,transfer_in,internet_banking,Faisalabad,VENDOR_Y,Business receipt

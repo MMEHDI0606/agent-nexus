@@ -1,0 +1,31 @@
+customer_id,name,occupation,declared_monthly_income_pkr,account_open_date,account_type,city,age,cnic_last_4,kyc_refresh_date
+C001,Ahmed Khan,Software Engineer (Salaried),280000,2022-03-15,Current,Karachi,29,8821,2025-03-10
+C002,Fatima Malik,Marketing Manager (Salaried),320000,2021-07-22,Savings,Lahore,34,4412,2024-12-01
+C003,Usman Ali,Civil Servant (Grade 18),165000,2019-11-04,Savings,Islamabad,41,9903,2025-06-18
+C004,Ayesha Iqbal,Doctor - Private Hospital,450000,2020-02-09,Current,Karachi,37,2256,2025-02-14
+C005,Bilal Cheema,Bank Employee - AVP,385000,2018-06-11,Current,Lahore,39,6178,2025-01-20
+C006,Hira Qureshi,HR Specialist (Salaried),195000,2023-01-25,Savings,Karachi,28,7734,2025-04-05
+C007,Zain Abbasi,Electrical Engineer,240000,2020-09-17,Savings,Rawalpindi,32,3390,2024-11-30
+C008,Sana Tariq,School Principal,220000,2017-04-02,Savings,Faisalabad,46,5561,2025-05-22
+C009,Kamran Shah,Accountant (Salaried),175000,2021-12-08,Savings,Peshawar,33,1108,2025-03-28
+C010,Mehwish Raza,Dentist (Salaried - Clinic),280000,2022-08-14,Current,Karachi,35,9087,2025-07-11
+C011,Imran Butt,Textile Trader (Self-employed),650000,2015-03-19,Current,Faisalabad,52,4457,2024-09-12
+C012,Nida Hassan,Boutique Owner,420000,2019-10-07,Current,Lahore,38,6623,2025-02-28
+C013,Tariq Mahmood,Auto Parts Wholesaler,780000,2014-07-03,Current,Karachi,55,8841,2024-08-15
+C014,Saima Raza,Restaurant Owner,550000,2020-05-28,Current,Islamabad,43,2215,2025-01-08
+C015,Asad Rehman,Pharmacy Owner,380000,2018-01-14,Current,Multan,47,7702,2025-03-17
+C016,Hamza Sheikh,University Student (LUMS),0,2024-09-12,Savings (Student),Lahore,20,3349,2024-09-12
+C017,Zara Amjad,University Student (NUST),0,2023-10-05,Savings (Student),Islamabad,21,5584,2023-10-05
+C018,Daniyal Hussain,University Student (IBA),0,2024-08-22,Savings (Student),Karachi,19,6670,2024-08-22
+C019,Abdul Rasheed,Retired - Pakistan Railways,85000,2010-02-11,Savings,Rawalpindi,68,1199,2024-10-19
+C020,Shahnaz Begum,Retired - Govt Teacher,65000,2012-06-28,Savings,Lahore,64,4438,2025-01-15
+C021,Ghulam Mohiuddin,Retired - Govt Clerk,55000,2013-04-09,Savings,Gujranwala,67,9923,2023-11-10
+C022,Amina Bukhari,University Student,0,2024-11-04,Savings (Student),Karachi,22,3382,2024-11-04
+C023,Farooq Akhtar,Property Dealer (Self-employed),180000,2021-08-16,Current,Rawalpindi,44,7719,2024-07-23
+C024,Rabia Shaikh,Homemaker,0,2019-03-07,Savings,Karachi,39,2267,2024-06-14
+C025,Junaid Masood,Freelance Photographer,120000,2022-05-11,Savings,Lahore,31,5538,2024-12-30
+C026,Omar Siddiqui,Freelance Software Developer (Export Services),450000,2022-11-20,Current,Karachi,29,6614,2025-04-02
+C027,Allah Ditta,Farmer - Cotton & Wheat,140000,2016-11-08,Savings,Bahawalpur,58,8890,2025-02-11
+C028,Nadia Khan,Homemaker (Husband salaried),0,2020-07-15,Savings,Islamabad,36,1134,2025-06-03
+C029,Shoaib Anwar,Chartered Accountant (Partner),520000,2017-03-29,Current,Karachi,42,4401,2025-04-22
+C030,Salma Ashraf,School Teacher,92000,2025-12-03,Savings (Home Remittance Plus),Lahore,34,4427,2025-12-03
