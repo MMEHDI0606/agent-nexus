@@ -12,6 +12,9 @@ Coverage: 1510 skills, 2 local tools
 
 ## Domain Routing Matrix
 
+### Entire Startup (1)
+- gstack
+
 ### Frontend (158)
 - 00-andruia-consultant
 - 10-andruia-skill-smith
