@@ -14,6 +14,30 @@
 - Runtime: `npx skills@latest`
 - Command: `bash ./skills.sh`
 
+## SEO Aggregation (External Mining)
+- Location: `agents/skills/seo/`
+- Theme: Cyber-Industrial SEO control plane with telemetry-first operations
+- Modules:
+	- `stega-safe-metadata-gate.md` - Metadata hygiene gate for index-safe head surfaces
+	- `seo-drift-telemetry-loop.md` - Baseline, diff, severity scoring, and release gates
+	- `geo-crawler-policy-matrix.md` - Coordinated policy model for robots, llms, and sitemap surfaces
+	- `rank-tracking-evidence-loop.md` - Rank delta event loop with action routing
+- Templates:
+	- `templates/metadata_gate_prompt.md`
+	- `templates/drift_triage_prompt.md`
+- Tooling:
+	- `tools/rank_tracking_rollup.py`
+- Source snapshot:
+	- `AgriciDaniel/claude-seo`
+	- `every-app/open-seo`
+	- `sanity-io/agent-toolkit`
+	- `VoltAgent/awesome-agent-skills`
+	- `modelcontextprotocol/servers`
+	- `crewAIInc/crewAI`
+	- `langchain-ai/langgraph`
+	- `simular-ai/agent-s`
+	- Unavailable at clone time: `AgriciDaniel/AEO-Agent-Crew`, `anthropics/frontend-design`
+
 ## Installed Skills (`.agents/skills/`) — 1508 total
 
 - .claude-plugin
