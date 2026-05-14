@@ -1,9 +1,9 @@
 # Skills Registry
 
-**Status:** 1508 skills installed
+**Status:** 1509 skills installed
 
 ## Folder Structure
-- `.agents/skills/` — **1508 installed skills**
+- `.agents/skills/` — **1509 installed skills**
 - `.tools/` — Runtime tools and utilities
 - `.vendor/reference/` — Template references
 - `.vendor/` — Infrastructure dependencies
@@ -38,7 +38,7 @@
 	- `simular-ai/agent-s`
 	- Unavailable at clone time: `AgriciDaniel/AEO-Agent-Crew`, `anthropics/frontend-design`
 
-## Installed Skills (`.agents/skills/`) — 1508 total
+## Installed Skills (`.agents/skills/`) — 1509 total
 
 - .claude-plugin
 - .codex-plugin
@@ -728,6 +728,7 @@
 - graphql-architect
 - growth-engine
 - grpc-golang
+- gstack
 - harden
 - haskell-pro
 - headline-psychologist
